@@ -12,6 +12,7 @@ An Operating System with **V O I D lang** that can run on retro computers.
 
 - **[Atari 65XE](https://en.wikipedia.org/wiki/Atari_8-bit_computers) / [8086 CPU](https://en.wikipedia.org/wiki/Intel_8086) / [80286 CPU](https://en.wikipedia.org/wiki/Intel_80286)**
 - **1.8 / 5 / 12 Mhz CPU Clock**
+- **8 / 16 Bit Architecture**
 - **64 / 640 KB RAM**
 - **40 MB HDD**
 - **[EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter) / [VGA](https://en.wikipedia.org/wiki/Video_Graphics_Array) / [SVGA](https://en.wikipedia.org/wiki/Super_VGA) Video Card**
