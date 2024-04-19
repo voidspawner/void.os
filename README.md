@@ -6,6 +6,37 @@
 
 <img src="https://i.imgur.com/kx2UcUh.jpg" width="100%">
 
+### Contains
+
+- **V O I D lang**
+- **V O I D format**
+- **V O I D social**
+- **V O I D engine**
+- **V O I D ai**
+- **V O I D tech**
+- Unicode
+- Network
+- OpenGL / Vulkan
+- Drivers
+- Fonts
+- Apps
+  - Social
+  - Office (Text / Cells / Code Editor)
+  - Calc
+  - Shop
+  - Video / Sound / Image Editor
+  - Video / Sound / Image Player
+  - File Manager
+  - Web Browser
+  - Virtual Machine
+  - AI Helper
+  - AI Translate
+  - AI Creator
+  - Settings
+  - Cloud
+  - Server
+- Games
+
 ## V O I D os retro
 
 An Operating System with **V O I D lang** that can run on retro computers.
