@@ -15,4 +15,4 @@ An Operating System with **V O I D lang** that can run on retro computers.
 - **8 / 16 Bit Architecture**
 - **64 / 640 KB RAM**
 - **40 MB HDD**
-- **[EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter) / [VGA](https://en.wikipedia.org/wiki/Video_Graphics_Array) / [SVGA](https://en.wikipedia.org/wiki/Super_VGA) Video Card**
+- **[TV](https://en.wikipedia.org/wiki/Analog_television) / [EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter) / [VGA](https://en.wikipedia.org/wiki/Video_Graphics_Array) / [SVGA](https://en.wikipedia.org/wiki/Super_VGA) Video Card**
