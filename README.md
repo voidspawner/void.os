@@ -62,10 +62,12 @@ Later operating systems extended their file handling functionality. **Unix**, **
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/DEC_VT100_terminal.jpg/1024px-DEC_VT100_terminal.jpg" width=584>
 
-**[DEC VT100 3 KB RAM (1978)](https://en.wikipedia.org/wiki/IBM_5100)**
+**[DEC VT100 3 KB RAM (1978)](https://en.wikipedia.org/wiki/VT100)**
 
 And even later, with the appearance of multitasking operating systems, applications began to use operating system **API** calls to access devices and display **user interface** (UI).
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Macintosh_128k_transparency.png/640px-Macintosh_128k_transparency.png" width=300>
+
+**[Macintosh 128K (1984)](https://en.wikipedia.org/wiki/Macintosh_128K)**
 
 Now it has come to the point where applications can be created in simple descriptive language **V O I D lang**, and all the complex functionality resides directly in the **V O I D os** operating system.
