@@ -79,8 +79,8 @@ Now it has come to the point where applications can be created in simple descrip
 ## V O I D format
 **[⌜ V O I D format ⌟](https://github.com/voidspawner/void.format)** is the data format that inherits the best features of **JSON**, **YAML**, **CSV** formats. Makes it easier to write and read data, both by human and by program.
 
-## V O I D Engine
-**[⌜ V O I D format ⌟](https://github.com/voidspawner/void.lang#game-engine)** is a compiled **V O I D spawner** game for rapidly creating apps and games in **V O I D lang**. It use multiple game engines:
+## V O I D engine
+**[⌜ V O I D engine ⌟](https://github.com/voidspawner/void.lang#game-engine)** is a compiled **V O I D spawner** game for rapidly creating apps and games in **V O I D lang**. It use multiple game engines:
 
 - **Godot Engine**
 - **Unreal 5 Engine**
