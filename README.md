@@ -6,7 +6,7 @@
 
 <img src="https://i.imgur.com/kx2UcUh.jpg" width="100%">
 
-### Contains
+## Contains
 
 - **V O I D lang**
 - **V O I D format**
@@ -38,14 +38,14 @@
   - Server
 - Games
 
-### Structure
+## Structure
 
 The operating system is in a **single file**. This makes it easy to transfer it to different devices and control damage or modification.
 ```
 void.void
 ```
 
-### V O I D os retro
+## V O I D os retro
 
 An Operating System with **V O I D lang** that can run on retro computers.
 
@@ -57,7 +57,7 @@ An Operating System with **V O I D lang** that can run on retro computers.
 - **[TV](https://en.wikipedia.org/wiki/Analog_television) / [EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter) / [VGA](https://en.wikipedia.org/wiki/Video_Graphics_Array) / [SVGA](https://en.wikipedia.org/wiki/Super_VGA) Video Card**
 - **Keyboard / Mouse / Joystick**
 
-### A Bit of History
+## A Bit of History
 
 The first computers were just **advanced calculators**. To operate such a calculator, the Operating System was a programming language. Thus the **[IBM 5100](https://en.wikipedia.org/wiki/IBM_5100)** operating system was represented by two languages **BASIC** and **APL** (for working with matrix and other scientific calculations).
 
