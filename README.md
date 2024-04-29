@@ -14,9 +14,9 @@
 - **V O I D engine**
 - **V O I D ai**
 - **V O I D tech**
+- Spatial arrangement of speakers, screens and effects
 - Unicode
 - Network
-- Spatial arrangement of speakers, screens and effects
 - OpenGL / Vulkan
 - Drivers
 - Fonts
