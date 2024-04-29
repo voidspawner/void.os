@@ -35,7 +35,6 @@
   - AI Creator
   - Settings
   - Cloud
-  - Server
 - Games
 
 ## Structure
