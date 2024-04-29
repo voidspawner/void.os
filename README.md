@@ -44,6 +44,10 @@ The operating system is in a **single file**. This makes it easy to transfer it 
 void.void
 ```
 
+## Security
+
+Each application can run in a separate isolated space, with a limited set of actions, or in a separate virtual machine, so that no data corruption or stealing occurs.
+
 ## V O I D os retro
 
 An Operating System with **V O I D lang** that can run on retro computers.
