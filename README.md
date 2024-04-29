@@ -16,6 +16,7 @@
 - **V O I D tech**
 - Unicode
 - Network
+- Spatial arrangement of speakers, screens and effects
 - OpenGL / Vulkan
 - Drivers
 - Fonts
@@ -37,7 +38,14 @@
   - Server
 - Games
 
-## V O I D os retro
+### Structure
+
+The operating system is in a **single file**. This makes it easy to transfer it to different devices and control damage or modification.
+```
+void.void
+```
+
+### V O I D os retro
 
 An Operating System with **V O I D lang** that can run on retro computers.
 
