@@ -40,7 +40,7 @@
 
 ## Structure
 
-The operating system is in a **single file**. This makes it easy to transfer it to different devices and control damage or modification.
+The operating system is in a **single file**. This makes it easy to transfer it to different devices, backup and control damage or modification.
 ```
 void.void
 ```
