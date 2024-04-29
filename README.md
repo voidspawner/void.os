@@ -16,6 +16,7 @@
 - **V O I D ai**
 - **V O I D tech**
 - Spatial arrangement of speakers, screens and effects
+- Compiler
 - Unicode
 - Network
 - OpenGL / Vulkan
