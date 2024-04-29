@@ -57,6 +57,28 @@ An Operating System with **V O I D lang** that can run on retro computers.
 - **[TV](https://en.wikipedia.org/wiki/Analog_television) / [EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter) / [VGA](https://en.wikipedia.org/wiki/Video_Graphics_Array) / [SVGA](https://en.wikipedia.org/wiki/Super_VGA) Video Card**
 - **Keyboard / Mouse / Joystick**
 
+```assembly
+        .org $c000    ; Starting address of the program
+
+start   lda #<message ; Load message address
+        sta $07f8     ; Set string output address
+        lda #>message
+        sta $07f9
+
+        lda #13       ; Select color (text white, background black)
+        jsr $e544     ; Calling system function
+
+loop    lda message,x ; Load character from string
+        beq done      ; If the character is null, terminate
+        jsr $e716     ; Output the character to the screen
+        inx           ; Increase string index
+        bne loop      ; Go to next character
+
+done    rts           ; Return from the program
+
+message .byte "Hi World :)", 0 ; Message string
+```
+
 ## A Bit of History
 
 The first computers were just **advanced calculators**. To operate such a calculator, the Operating System was a programming language. Thus the **[IBM 5100](https://en.wikipedia.org/wiki/IBM_5100)** operating system was represented by two languages **BASIC** and **APL** (for working with matrix and other scientific calculations).
