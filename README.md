@@ -76,7 +76,7 @@ message .byte "Hi World :)", 0 ; Message string
 
 The first computers were just **advanced calculators**. To operate such a calculator, the Operating System was a programming language. Thus the **[IBM 5100](https://en.wikipedia.org/wiki/IBM_5100)** operating system was represented by two languages **BASIC** and **APL** (for working with matrix and other scientific calculations).
 
-<img src="https://i.imgur.com/aZP4voi.jpeg" height=300> <img src="https://i.imgur.com/cf2aFtE.jpeg" height=300>
+<img src="https://i.imgur.com/aZP4voi.jpeg" height=250> <img src="https://i.imgur.com/cf2aFtE.jpeg" height=250>
 
 **[Retroinformática: IBM 5100 (1975)](https://www.neoteo.com/retroinformatica-ibm-5100-1975/)**
 
@@ -88,7 +88,7 @@ Later operating systems extended their file handling functionality. **Unix**, **
 
 And even later, with the appearance of multitasking operating systems, applications began to use operating system **API** calls to access devices and display **user interface** (UI).
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Macintosh_128k_transparency.png/640px-Macintosh_128k_transparency.png" height=300> <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Computer_macintosh_128k%2C_1984_%28all_about_Apple_onlus%29.jpg" height=300> <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Macintosh-motherboard.jpg" height=300>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Macintosh_128k_transparency.png/640px-Macintosh_128k_transparency.png" height=250> <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Computer_macintosh_128k%2C_1984_%28all_about_Apple_onlus%29.jpg" height=250> <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Macintosh-motherboard.jpg" height=250>
 
 **[Macintosh 128K (1984)](https://en.wikipedia.org/wiki/Macintosh_128K)**
 
