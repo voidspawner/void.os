@@ -80,7 +80,7 @@ The first computers were just **advanced calculators**. To operate such a calcul
 
 **[Retroinformática: IBM 5100 (1975)](https://www.neoteo.com/retroinformatica-ibm-5100-1975/)**
 
-Later operating systems extended their file handling functionality. **Unix**, **CP/M**, **DOS** were simplified versions of programming languages for working with the file system.
+Later operating systems extended their file handling functionality. **[Unix](https://ru.wikipedia.org/wiki/Unix)**, **[CP/M](https://en.wikipedia.org/wiki/CP/M)**, **[DOS](https://en.wikipedia.org/wiki/DOS)** were simplified versions of programming languages for working with the file system.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/DEC_VT100_terminal.jpg/1024px-DEC_VT100_terminal.jpg" width=400>
 
