@@ -12,7 +12,7 @@ The operating system is in a **single file**. This makes it easy to transfer it 
 ```
 os.void
 ```
-The operating system contains viewing and editing media and office files, working with the file system, web browser, social network client and server, network load balancing, interfacing with peripherals, virtualization tools, creating 3D/2D/VN games and applications, AI helper.
+The operating system contains viewing and editing media and office files, working with the file system, web browser, social network client and server, network load balancing, interfacing with peripherals, virtualization tools, creating 3D / 2D / VN games and applications, AI helper.
 
 ## Security
 
