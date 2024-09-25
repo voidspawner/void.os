@@ -88,7 +88,7 @@ Later operating systems extended their file handling functionality. **Unix**, **
 
 And even later, with the appearance of multitasking operating systems, applications began to use operating system **API** calls to access devices and display **user interface** (UI).
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Macintosh_128k_transparency.png/640px-Macintosh_128k_transparency.png" height=260> <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Computer_macintosh_128k%2C_1984_%28all_about_Apple_onlus%29.jpg" height=260> <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Macintosh-motherboard.jpg" height=260>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Macintosh_128k_transparency.png/640px-Macintosh_128k_transparency.png" height=270> <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Computer_macintosh_128k%2C_1984_%28all_about_Apple_onlus%29.jpg" height=270> <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Macintosh-motherboard.jpg" height=270>
 
 **[Macintosh 128K (1984)](https://en.wikipedia.org/wiki/Macintosh_128K)**
 
