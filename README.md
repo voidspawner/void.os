@@ -12,7 +12,7 @@ The operating system is in a **single file**. This makes it easy to transfer it 
 ```
 os.void
 ```
-The operating system contains viewing and editing media and office files, working with the file system, web browser, social network client and server, network load balancing, interfacing with peripherals, virtualization tools, creating games and applications, AI helper.
+The operating system contains viewing and editing media and office files, working with the file system, web browser, social network client and server, network load balancing, interfacing with peripherals, virtualization tools, creating 3D/2D/VN games and applications, AI helper.
 
 ## Security
 
@@ -74,7 +74,7 @@ message .byte "Hi World :)", 0 ; Message string
 
 ## A Bit of History
 
-The first computers were just **advanced calculators**. To operate such a calculator, the Operating System was a programming language. Thus the **[IBM 5100](https://en.wikipedia.org/wiki/IBM_5100)** operating system was represented by two languages **BASIC** and **APL** (for working with matrix and other scientific calculations).
+The first computers were just **advanced calculators**. To operate such a calculator, the Operating System was a programming language. Thus the **[IBM 5100](https://en.wikipedia.org/wiki/IBM_5100)** operating system was represented by two languages **[BASIC](https://en.wikipedia.org/wiki/BASIC)** and **[APL](https://en.wikipedia.org/wiki/APL_(programming_language))** (for working with matrix and other scientific calculations).
 
 <img src="https://i.imgur.com/aZP4voi.jpeg" height=250> <img src="https://i.imgur.com/cf2aFtE.jpeg" height=250>
 
