@@ -42,8 +42,8 @@ An Operating System with **V O I D lang** that can run on retro computers.
 | **Keyboard**      | <p align="center">+</p>          | <p align="center">+</p>       | <p align="center">+</p>       |
 | **Modem**         | <p align="center">300 baud</p>          | <p align="center">300 baud</p>       | <p align="center">300 baud</p>       |
 | **Monitor**       | <p align="center">[TV](https://en.wikipedia.org/wiki/Analog_television)</p>         | <p align="center">[EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter)</p>     | <p align="center">[EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter)</p>     |
-| **Width**         | <p align="center">320</p>        | <p align="center">640</p>     | <p align="center">350</p>     |
-| **Height**        | <p align="center">192</p>        | <p align="center">640</p>     | <p align="center">350</p>     |
+| **Width**         | <p align="center">320</p>        | <p align="center">640</p>     | <p align="center">640</p>     |
+| **Height**        | <p align="center">192</p>        | <p align="center">350</p>     | <p align="center">350</p>     |
 | **Columns**       | <p align="center">40</p>         | <p align="center">80</p>      | <p align="center">80</p>      |
 | **Rows**          | <p align="center">24</p>         | <p align="center">25</p>      | <p align="center">25</p>      |
 | **Colors**        | <p align="center">16 (256)</p>   | <p align="center">16 (64)</p> | <p align="center">16 (64)</p> |
