@@ -10,7 +10,7 @@
 
 The operating system is in a **single file**. This makes it easy to transfer it to different devices, backup and control damage or modification.
 ```
-void.void
+os.void
 ```
 The operating system contains viewing and editing media and office files, working with the file system, web browser, social network client and server, network load balancing, interfacing with peripherals, virtualization tools, creating games and applications, AI helper.
 
