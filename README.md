@@ -12,7 +12,7 @@ The operating system is in a **single file**. This makes it easy to transfer it 
 ```
 os.void
 ```
-The operating system contains viewing and editing media and office files, working with the file system, web browser, social network client and server, network load balancing, interfacing with peripherals, virtualization toolss, AI helper, creating applications and 3D / 2D / VN games.
+The operating system contains viewing and editing media and office files, working with the file system, web browser, social network client and server, network load balancing, interfacing with peripherals, virtualization tools, AI helper, creating applications and 3D・2D・VN games.
 
 ## Security
 
@@ -92,7 +92,7 @@ And even later, with the appearance of multitasking operating systems, applicati
 
 **[Macintosh 128K (1984)](https://en.wikipedia.org/wiki/Macintosh_128K)**
 
-Now it has come to the point where applications can be created in simple descriptive language **V O I D lang**, and all the complex functionality residing directly in the **V O I D os** operating system.
+Now it has come to the point where applications can be created in simple descriptive language **V O I D lang**, and all the complex functionality residing directly in the **V O I D os**.
 
 
 ## V O I D lang
