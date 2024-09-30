@@ -92,8 +92,24 @@ And even later, with the appearance of multitasking operating systems, applicati
 
 **[Macintosh 128K (1984)](https://en.wikipedia.org/wiki/Macintosh_128K)**
 
-Now it has come to the point where applications can be created in simple descriptive language **V O I D lang**, and all the complex functionality residing directly in the **V O I D os**.
+Computer technology is continually evolving.
 
+| <p align="center">**Type**</p>            | <p align="center">**Name**</p>           | <p align="center">**Year**</p> |
+| --------------  | -------------- | ---- |
+| **OS**              | GM-NAA I/O     | <p align="center">1956</p> |
+| **Game**            | Spacewar!      | <p align="center">1962</p> |
+| **Multitasking OS** | PDP-6          | <p align="center">1964</p> |
+| **3D Game**         | Battlezone     | <p align="center">1980</p> |
+| **HTTP Server**     | CERN httpd     | <p align="center">1990</p> |
+| **Web Browser**     | WorldWideWeb   | <p align="center">1990</p> |
+| **Encoding**        | Unicode        | <p align="center">1991</p> |
+| **Compress**        | Gzip           | <p align="center">1992</p> |
+| **Web Language**    |	JavaScript     | <p align="center">1995</p> |
+| **Social Network**  | SixDegrees     | <p align="center">1997</p> |
+| **Data Format**     | JSON           | <p align="center">1999</p> |
+| **3D Craft Game**   | Minecraft      | <p align="center">2009</p> |
+
+Now it has come to the point where applications can be created in simple descriptive language **V O I D lang**, and all the complex functionality residing directly in the **V O I D os**.
 
 ## V O I D lang
 **[⌜ V O I D lang ⌟](https://github.com/voidspawner/void.lang)** is the language for rapidly creating applications in the **V O I D** or **[JSON format](https://ru.wikipedia.org/wiki/JSON)**. It is used as a replacement for both the standard Bash/CMD/etc. languages and for writing **UI Applications**, **Servers** and **Games**. The language uses one of the languages already preinstalled in the system. So you don't need to install anything else. Code and data are not separated. So the whole application fits in **one V O I D or JSON file**. Since the **code is presented as data**, applications can be easily generated with **AI**, updated, installed and launched remotely.
