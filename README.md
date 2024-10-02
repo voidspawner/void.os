@@ -120,3 +120,9 @@ Now it has come to the point where applications can be created in simple descrip
 
 ## V O I D lang
 **[⌜ V O I D lang ⌟](https://github.com/voidspawner/void.lang)** is the language for rapidly creating applications in the **V O I D** or **[JSON format](https://ru.wikipedia.org/wiki/JSON)**. It is used as a replacement for both the standard Bash/CMD/etc. languages and for writing **UI Applications**, **Servers** and **Games**. The language uses one of the languages already preinstalled in the system. So you don't need to install anything else. Code and data are not separated. So the whole application fits in **one V O I D or JSON file**. Since the **code is presented as data**, applications can be easily generated with **AI**, updated, installed and launched remotely.
+
+## V O I D work
+> [!IMPORTANT]
+> By adding your code to a repository, you transfer the rights to the uploaded code to the owner of that repository **V O I D spawner**.
+
+Find out current **tasks** and **payment** at [**voidsp.com/task**](https://voidsp.com/task)
