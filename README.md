@@ -96,6 +96,8 @@ Computer technology is continually evolving.
 
 | <p align="center">**Type**</p> | <p align="center">**Name**</p>                                           | <p align="center">**Year**</p> |
 | -----------------------  | ------------------------------------------------------------------------------ | -------------------------- |
+| **Print**                | [**Johannes Gutenberg's Printing Press**](https://en.wikipedia.org/wiki/Printing_press) | <p align="center">1440</p> |
+| **Programmatic Control** | [**Jacquard Machine**](https://en.wikipedia.org/wiki/Jacquard_machine) | <p align="center">1804</p> |
 | **Programming Language** | [**Short Code**](https://en.wikipedia.org/wiki/Short_Code_(computer_language)) | <p align="center">1950</p> |
 | **OS**                   | [**GM-NAA I/O**](https://en.wikipedia.org/wiki/GM-NAA_I/O)                     | <p align="center">1956</p> |
 | **Game**                 | [**Spacewar!**](https://en.wikipedia.org/wiki/Spacewar!)                       | <p align="center">1962</p> |
