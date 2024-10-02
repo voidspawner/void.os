@@ -1,5 +1,7 @@
 # V O I D os
 
+## About
+
 **⌜ V O I D os ⌟** is an **[Operating System](https://en.wikipedia.org/wiki/Operating_system)** that uses **[V O I D lang](https://github.com/voidspawner/void.lang)** to run and create applications and games.
 
 **The project is in the process of development.**
