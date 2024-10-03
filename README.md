@@ -126,7 +126,7 @@ message .byte "Hi World :D", 0 ; Message string
 | ``45 EOR aa`` |
 | ``46 LSR aa`` |
 | ``48 PHA`` |
-| ``...``` |
+| ``...`` |
 | ``59 EOR aaaa,Y`` |
 | ``5D EOR aaaa,X`` |
 | ``5E LSR aaaa,X`` |
@@ -168,7 +168,7 @@ message .byte "Hi World :D", 0 ; Message string
 | ``9D STA aaaa,X`` |
 | ``A0 LDY #nn`` |
 | ``A1 LDA (aa,X)`` |
-| ```...``` |
+| ``...`` |
 | ``AE LDX aaaa`` |
 | ``B0 BCS aa`` |
 | ``B1 LDA (aa),Y`` |
