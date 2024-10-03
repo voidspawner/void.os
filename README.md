@@ -9,6 +9,14 @@
 
 <img src="https://i.imgur.com/kx2UcUh.jpg" width="100%">
 
+> [**About**](#about)・
+[**Structure**](#structure)・
+[**Security**](#security)・
+[**V O I D os retro**](#v-o-i-d-os-retro)・
+[**A Bit of History**](#a-bit-of-history)・
+[**V O I D lang**](#v-o-i-d-lang)・
+[**V O I D work**](#v-o-i-d-work)
+> 
 ## Structure
 
 The operating system is in a **single file**. This makes it easy to transfer it to different devices, backup and control damage or modification.
