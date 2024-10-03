@@ -113,7 +113,7 @@ Computer technology is continually evolving.
 | **OS**                   | [**GM-NAA I/O**](https://en.wikipedia.org/wiki/GM-NAA_I/O)                              | <p align="center">1956</p>     |
 | **Game**                 | [**Spacewar!**](https://en.wikipedia.org/wiki/Spacewar!)                                | <p align="center">1962</p>     |
 | **Multitasking OS**      | [**PDP-6**](https://en.wikipedia.org/wiki/PDP-6)                                        | <p align="center">1964</p>     |
-| **Graphical OS**         | [**Xerox Alto**](https://en.wikipedia.org/wiki/Xerox_Alto)                              | <p align="center">1973</p>     |
+| **Graphical OS**         | [**Alto Executive**](https://en.wikipedia.org/wiki/Xerox_Alto)                              | <p align="center">1973</p>     |
 | **Network**              | [**Ethernet for Xerox Alto**](https://en.wikipedia.org/wiki/Ethernet)                   | <p align="center">1973</p>     |
 | **3D Game**              | [**Battlezone**](https://en.wikipedia.org/wiki/Battlezone_(1980_video_game))            | <p align="center">1980</p>     |
 | **HTTP Server**          | [**CERN httpd**](https://en.wikipedia.org/wiki/CERN_httpd)                              | <p align="center">1990</p>     |
