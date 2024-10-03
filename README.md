@@ -80,7 +80,7 @@ loop    lda message,x ; Load character from string
 
 done    rts           ; Return from the program
 
-message .byte "Hi World :)", 0 ; Message string
+message .byte "Hi World :D", 0 ; Message string
 ```
 
 ## A Bit of History
