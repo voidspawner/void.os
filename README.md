@@ -244,6 +244,7 @@ Computer technology is continually evolving.
 | **Multitasking OS**      | [**PDP-6**](https://en.wikipedia.org/wiki/PDP-6)                                        | <p align="center">1964</p>     |
 | **Graphical OS**         | [**Alto Executive**](https://en.wikipedia.org/wiki/Xerox_Alto)                          | <p align="center">1973</p>     |
 | **Network**              | [**Ethernet for Xerox Alto**](https://en.wikipedia.org/wiki/Ethernet)                   | <p align="center">1973</p>     |
+| **CPU**                  | [**Intel 8086**](https://ru.wikipedia.org/wiki/Intel_8086)                              | <p align="center">1978</p>     |
 | **Spreadsheet**          | [**VisiCalc**](https://en.wikipedia.org/wiki/VisiCalc)                                  | <p align="center">1979</p>     |
 | **3D Game**              | [**Battlezone**](https://en.wikipedia.org/wiki/Battlezone_(1980_video_game))            | <p align="center">1980</p>     |
 | **HTTP Server**          | [**CERN httpd**](https://en.wikipedia.org/wiki/CERN_httpd)                              | <p align="center">1990</p>     |
