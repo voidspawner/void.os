@@ -15,9 +15,10 @@
 [**V O I D os retro**](#v-o-i-d-os-retro)・
 [**A Bit of History**](#a-bit-of-history)・
 [**V O I D lang**](#v-o-i-d-lang)・
+[**V O I D tech**](#v-o-i-d-tech)・
 [**V O I D ideology**](#v-o-i-d-ideology)・
 [**V O I D work**](#v-o-i-d-work)
-> 
+
 ## Structure
 
 The operating system is in a **single file**. This makes it easy to transfer it to different devices, backup and control damage or modification.
@@ -262,6 +263,9 @@ Now it has come to the point where applications can be created in simple descrip
 
 ## V O I D lang
 **[⌜ V O I D lang ⌟](https://github.com/voidspawner/void.lang)** is the language for rapidly creating applications in the **[V O I D](https://github.com/voidspawner/void.lang#v-o-i-d-format)** or **[JSON format](https://ru.wikipedia.org/wiki/JSON)**. It is used as a replacement for both the standard Bash/CMD/etc. languages and for writing **UI Applications**, **Servers** and **Games**. The language uses one of the languages already preinstalled in the system. So you don't need to install anything else. Code and data are not separated. So the whole application fits in **one V O I D or JSON file**. Since the **code is presented as data**, applications can be easily generated with **AI**, updated, installed and launched remotely.
+
+## V O I D tech
+**[⌜ V O I D tech ⌟](https://github.com/voidspawner/void.tech)** is combinable devices controlled by **V O I D ai** to perform **home**, **business**, **industrial** purposes and **teaching children** to interact with technology.
 
 ## V O I D ideology
 **[⌜V O I D⌟](https://github.com/voidspawner/void.ideology)**  is not only about compact technologies, but also an **ideology** that shows where these technologies are taking us.
