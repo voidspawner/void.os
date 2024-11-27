@@ -41,11 +41,11 @@ An Operating System with **V O I D lang** that can run on retro computers.
 | **Year**          | <p align="center">1985</p>         | <p align="center">1978</p>     | <p align="center">1982</p>     | <p align="center">2023</p>           |
 | **Transistors**   | <p align="center">3 510</p>        | <p align="center">29 000</p>   | <p align="center">134 000</p>  | <p align="center">17 800 000 000</p> |
 | **Technology**    | <p align="center">8 μm</p>         | <p align="center">3 μm</p>     | <p align="center">1.5 μm</p>   | <p align="center">10 nm</p>          |
-| **Type**          | <p align="center">8 bit</p>        | <p align="center">16 bit</p>   | <p align="center">16 bit</p>   | <p align="center">64 bit</p>         |
+| **Architecture**  | <p align="center">8 bit</p>        | <p align="center">16 bit</p>   | <p align="center">16 bit</p>   | <p align="center">64 bit</p>         |
 | **Instructions**  | <p align="center">55 (CPU)</p>     | <p align="center">114</p>      | <p align="center">118</p>      | <p align="center">3 684</p>          |
 | **Clock Rate**    | <p align="center">1.79 Mhz</p>     | <p align="center">4 Mhz</p>    | <p align="center">12 Mhz</p>   | <p align="center">6 GHz</p>          |
-| **Data Bus**      | <p align="center">8 bit</p>        | <p align="center">16 bit</p>   | <p align="center">16 bit</p>   | <p align="center">64</p>             |
-| **Address Bus**   | <p align="center">16 bit</p>       | <p align="center">20 bit</p>   | <p align="center">24 bit</p>   | <p align="center">64</p>             |
+| **Data Bus**      | <p align="center">8 bit</p>        | <p align="center">16 bit</p>   | <p align="center">16 bit</p>   | <p align="center">64 bit</p>         |
+| **Address Bus**   | <p align="center">16 bit</p>       | <p align="center">20 bit</p>   | <p align="center">24 bit</p>   | <p align="center">64 bit</p>         |
 | **Memory**        | <p align="center">64 kb</p>        | <p align="center">640 kb</p>   | <p align="center">640 kb</p>   | <p align="center">192 Gb</p>         |
 | **HDD**           | <p align="center">-</p>            | <p align="center">40 Mb</p>    | <p align="center">40 Mb</p>    | <p align="center">16 Tb</p>          |
 | **Floppy**        | <p align="center">5.25"</p>        | <p align="center">5.25"</p>    | <p align="center">5.25"</p>    | <p align="center">-</p>              |
