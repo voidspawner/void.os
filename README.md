@@ -12,7 +12,7 @@
 > [**About**](#about)・
 [**Structure**](#structure)・
 [**Security**](#security)・
-[**V O I D os retro**](#v-o-i-d-os-retro)・
+[**Modern & Retro**](#modern---retro)・
 [**A Bit of History**](#a-bit-of-history)・
 [**V O I D license**](#v-o-i-d-license)・
 [**V O I D lang**](#v-o-i-d-lang)・
@@ -32,9 +32,9 @@ The operating system contains viewing and editing media and office files, workin
 
 Each application can run in a separate isolated space, with a limited set of actions, or in a separate virtual machine, so that no data corruption or stealing occurs.
 
-## V O I D os retro
+## Modern & Retro
 
-An Operating System with **V O I D lang** that can run on retro computers.
+An Operating System with **V O I D lang** that can run on **modern** and **retro** computers.
 
 | | <p align="center">**[Atari 65XE](https://en.wikipedia.org/wiki/Atari_8-bit_computers)**</p> | <p align="center">**[Intel 8086](https://en.wikipedia.org/wiki/Intel_8086)**</p> | <p align="center">**[Intel 80286](https://en.wikipedia.org/wiki/Intel_80286)**</p> | <p align="center">**[Intel Core i9](https://www.intel.com/content/www/us/en/products/sku/232167/intel-core-i913900ks-processor-36m-cache-up-to-6-00-ghz/specifications.html)**</p> |
 | ----------------- | ---------------------------------- | ------------------------------ | ------------------------------ | ------------------------------------ |
