@@ -12,7 +12,7 @@
 > [**About**](#about)・
 [**Structure**](#structure)・
 [**Security**](#security)・
-[**Modern & Retro**](#modern---retro)・
+[**Modern & Retro**](#modern--retro)・
 [**A Bit of History**](#a-bit-of-history)・
 [**V O I D license**](#v-o-i-d-license)・
 [**V O I D lang**](#v-o-i-d-lang)・
