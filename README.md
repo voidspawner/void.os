@@ -86,9 +86,9 @@ done    rts           ; Return from the program
 message .byte "Hi World :D", 0 ; Message string
 ```
 
-| Atari 65XE<br><img width=1000/> | Intel 8086<br><img width=1000/> | Intel 80286<br><img width=1000/> | Intel Core i9<br><img width=1000/> |
-| ------------------------------- | ------------------------- | -------------------------- | ----------------------- |
-| ``00 BRK`` | ``AAA Adjust after Addition`` | ``AAA ASCII adjust for addition`` |
+| Atari 65XE<br><img width=1000/> | Intel 8086<br><img width=1000/> | Intel 80286<br><img width=1000/> |
+| ------------------------------- | ------------------------- | -------------------------- |
+| ``00 BRK`` | ``AAA`` Adjust after Addition | ``AAA ASCII adjust for addition`` |
 | ``01 ORA (aa,X)`` | ``AAD ASCII Adjust before Division`` | ``AAD ASCII adjust for division`` |
 | ``05 ORA aa`` | ``AAM ASCII Adjust after Multiplication`` | ``AAM ASCII adjust for multiply`` |
 | ``06 ASL aa`` | ``AAS ASCII Adjust after Subtraction`` | ``AAS ASCII adjust for subtraction`` |
