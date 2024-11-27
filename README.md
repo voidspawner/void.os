@@ -36,31 +36,31 @@ Each application can run in a separate isolated space, with a limited set of act
 
 An Operating System with **V O I D lang** that can run on retro computers.
 
-|                   | <p align="center">**[Atari 65XE](https://en.wikipedia.org/wiki/Atari_8-bit_computers)**</p> | <p align="center">**[8086 CPU](https://en.wikipedia.org/wiki/Intel_8086)**</p> | <p align="center">**[80286 CPU](https://en.wikipedia.org/wiki/Intel_80286)**</p> |
-| ----------------- | ---------------------------------- | ----------------------------- | ----------------------------- |
-| **Year**          | <p align="center">1985</p>         | <p align="center">1978</p>    | <p align="center">1982</p>    |
-| **Transistors**   | <p align="center">3 510</p>        | <p align="center">29 000</p>  | <p align="center">134 000</p> |
-| **Technology**    | <p align="center">8 μm</p>         | <p align="center">3 μm</p>    | <p align="center">1.5 μm</p>  |
-| **Architecture**  | <p align="center">8 bit</p>        | <p align="center">16 bit</p>  | <p align="center">16 bit</p>  |
-| **Instructions**  | <p align="center">55 (CPU)</p>     | <p align="center">114</p>      | <p align="center">118</p>     |
-| **Clock Rate**    | <p align="center">1.79 Mhz</p>     | <p align="center">4 Mhz</p>   | <p align="center">12 Mhz</p>  |
-| **Data Bus**      | <p align="center">8 bit</p>        | <p align="center">16 bit</p>  | <p align="center">16 bit</p>  |
-| **Address Bus**   | <p align="center">16 bit</p>       | <p align="center">20 bit</p>  | <p align="center">24 bit</p>  |
-| **Memory**        | <p align="center">64 kb</p>        | <p align="center">640 kb</p>  | <p align="center">640 kb</p>  |
-| **HDD**           | <p align="center">-</p>            | <p align="center">40 Mb</p>   | <p align="center">40 Mb</p>   |
-| **Floppy**        | <p align="center">5.25"</p>        | <p align="center">5.25"</p>   | <p align="center">5.25"</p>   |
-| **Cartridge**     | <p align="center">+</p>            | <p align="center">-</p>       | <p align="center">-</p>       |
-| **Cassette Tape** | <p align="center">+</p>            | <p align="center">-</p>       | <p align="center">-</p>       |
-| **Joystick**      | <p align="center">+</p>            | <p align="center">-</p>       | <p align="center">-</p>       |
-| **Mouse**         | <p align="center">+</p>            | <p align="center">+</p>       | <p align="center">+</p>       |
-| **Keyboard**      | <p align="center">+</p>            | <p align="center">+</p>       | <p align="center">+</p>       |
-| **Modem**         | <p align="center">300 baud</p>     | <p align="center">300 baud</p>  | <p align="center">300 baud</p> |
-| **Monitor**       | <p align="center">[TV](https://en.wikipedia.org/wiki/Analog_television)</p> | <p align="center">[EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter)</p> | <p align="center">[EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter)</p> |
-| **Width**         | <p align="center">320</p>          | <p align="center">640</p>     | <p align="center">640</p>     |
-| **Height**        | <p align="center">192</p>          | <p align="center">350</p>     | <p align="center">350</p>     |
-| **Columns**       | <p align="center">40</p>           | <p align="center">80</p>      | <p align="center">80</p>      |
-| **Rows**          | <p align="center">24</p>           | <p align="center">25</p>      | <p align="center">25</p>      |
-| **Colors**        | <p align="center">16 (256)</p>     | <p align="center">16 (64)</p> | <p align="center">16 (64)</p> |
+| | <p align="center">**[Atari 65XE](https://en.wikipedia.org/wiki/Atari_8-bit_computers)**</p> | <p align="center">**[Intel 8086](https://en.wikipedia.org/wiki/Intel_8086)**</p> | <p align="center">**[Intel 80286](https://en.wikipedia.org/wiki/Intel_80286)**</p> | <p align="center">**[Intel Core 9](https://www.intel.com/content/www/us/en/products/sku/232167/intel-core-i913900ks-processor-36m-cache-up-to-6-00-ghz/specifications.html)**</p> |
+| ----------------- | ---------------------------------- | ------------------------------ | ------------------------------ | ------------------------------------ |
+| **Year**          | <p align="center">1985</p>         | <p align="center">1978</p>     | <p align="center">1982</p>     | <p align="center">2023</p>           |
+| **Transistors**   | <p align="center">3 510</p>        | <p align="center">29 000</p>   | <p align="center">134 000</p>  | <p align="center">17 800 000 000</p> |
+| **Technology**    | <p align="center">8 μm</p>         | <p align="center">3 μm</p>     | <p align="center">1.5 μm</p>   | <p align="center">10 nm</p>          |
+| **Type**          | <p align="center">8 bit</p>        | <p align="center">16 bit</p>   | <p align="center">16 bit</p>   | <p align="center">64 bit</p>         |
+| **Instructions**  | <p align="center">55 (CPU)</p>     | <p align="center">114</p>      | <p align="center">118</p>      | <p align="center">3 684</p>          |
+| **Clock Rate**    | <p align="center">1.79 Mhz</p>     | <p align="center">4 Mhz</p>    | <p align="center">12 Mhz</p>   | <p align="center">6 GHz</p>          |
+| **Data Bus**      | <p align="center">8 bit</p>        | <p align="center">16 bit</p>   | <p align="center">16 bit</p>   | <p align="center">64</p>             |
+| **Address Bus**   | <p align="center">16 bit</p>       | <p align="center">20 bit</p>   | <p align="center">24 bit</p>   | <p align="center">64</p>             |
+| **Memory**        | <p align="center">64 kb</p>        | <p align="center">640 kb</p>   | <p align="center">640 kb</p>   | <p align="center">192 Gb</p>         |
+| **HDD**           | <p align="center">-</p>            | <p align="center">40 Mb</p>    | <p align="center">40 Mb</p>    | <p align="center">16 Tb</p>          |
+| **Floppy**        | <p align="center">5.25"</p>        | <p align="center">5.25"</p>    | <p align="center">5.25"</p>    | <p align="center">-</p>              |
+| **Cartridge**     | <p align="center">+</p>            | <p align="center">-</p>        | <p align="center">-</p>        | <p align="center">-</p>              |
+| **Cassette Tape** | <p align="center">+</p>            | <p align="center">-</p>        | <p align="center">-</p>        | <p align="center">-</p>              |
+| **Joystick**      | <p align="center">+</p>            | <p align="center">-</p>        | <p align="center">-</p>        | <p align="center">-</p>              |
+| **Mouse**         | <p align="center">+</p>            | <p align="center">+</p>        | <p align="center">+</p>        | <p align="center">+</p>              |
+| **Keyboard**      | <p align="center">+</p>            | <p align="center">+</p>        | <p align="center">+</p>        | <p align="center">+</p>              |
+| **Modem**         | <p align="center">300 baud</p>     | <p align="center">300 baud</p> | <p align="center">300 baud</p> | <p align="center">-</p>              |
+| **Monitor**       | <p align="center">[TV](https://en.wikipedia.org/wiki/Analog_television)</p> | <p align="center">[EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter)</p> | <p align="center">[EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter)</p> | <p align="center">[8k](https://en.wikipedia.org/wiki/8K_resolution)</p> |
+| **Width**         | <p align="center">320</p>          | <p align="center">640</p>      | <p align="center">640</p>      | <p align="center">7 680 </p>         |
+| **Height**        | <p align="center">192</p>          | <p align="center">350</p>      | <p align="center">350</p>      | <p align="center">4 320</p>          |
+| **Columns**       | <p align="center">40</p>           | <p align="center">80</p>       | <p align="center">80</p>       | <p align="center">-</p>              |
+| **Rows**          | <p align="center">24</p>           | <p align="center">25</p>       | <p align="center">25</p>       | <p align="center">-</p>              |
+| **Colors**        | <p align="center">16 (256)</p>     | <p align="center">16 (64)</p>  | <p align="center">16 (64)</p>  | <p align="center">68 719 476 736</p> |
 
 The operating system can be written using **[Assembly](https://en.wikipedia.org/wiki/Assembly_language)** and **[C++](https://en.wikipedia.org/wiki/C++)** languages. Or the direct use of **[opcodes](https://en.wikipedia.org/wiki/Opcode)**.
 
@@ -86,8 +86,8 @@ done    rts           ; Return from the program
 message .byte "Hi World :D", 0 ; Message string
 ```
 
-| Atari 65XE<br><img width=1000/> | 8086<br><img width=1000/> | 80286<br><img width=1000/> |
-| ---------- | ---- | ----- |
+| Atari 65XE<br><img width=1000/> | 8086<br><img width=1000/> | 80286<br><img width=1000/> | i7<br><img width=1000/> |
+| ------------------------------- | ------------------------- | -------------------------- | ----------------------- |
 | ``00 BRK`` | ``AAA Adjust after Addition`` | ``AAA ASCII adjust for addition`` |
 | ``01 ORA (aa,X)`` | ``AAD ASCII Adjust before Division`` | ``AAD ASCII adjust for division`` |
 | ``05 ORA aa`` | ``AAM ASCII Adjust after Multiplication`` | ``AAM ASCII adjust for multiply`` |
