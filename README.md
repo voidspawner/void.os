@@ -259,6 +259,7 @@ Computer technology is continually evolving.
 | **Web Data Format**      | [**JSON**](https://en.wikipedia.org/wiki/JSON)                                          | <p align="center">1999</p>     |
 | **3D Craft Game**        | [**Minecraft**](https://en.wikipedia.org/wiki/Minecraft)                                | <p align="center">2009</p>     |
 | **AI**                   | [**Stable Diffusion**](https://ru.wikipedia.org/wiki/Stable_Diffusion)                  | <p align="center">2022</p>     |
+| **Ideology**             | [**V O I D**](https://github.com/voidspawner/void.ideology)                             | <p align="center">2023</p>     |
 
 Now it has come to the point where applications can be created in simple descriptive language **V O I D lang**, and all the complex functionality residing directly in the **V O I D os**.
 
