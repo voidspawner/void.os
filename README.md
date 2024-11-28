@@ -85,134 +85,134 @@ done    rts           ; Return from the program
 message .byte "Hi World :D", 0 ; Message string
 ```
 
-| Atari 65XE<br><img width=1000/> | Intel 8086<br><img width=1000/> | Intel 80286<br><img width=1000/> |
-| ------------------------------- | ------------------------- | -------------------------- |
-| ``00 BRK`` | ``AAA`` Adjust after Addition | ``AAA ASCII adjust for addition`` |
-| ``01 ORA (aa,X)`` | ``AAD ASCII Adjust before Division`` | ``AAD ASCII adjust for division`` |
-| ``05 ORA aa`` | ``AAM ASCII Adjust after Multiplication`` | ``AAM ASCII adjust for multiply`` |
-| ``06 ASL aa`` | ``AAS ASCII Adjust after Subtraction`` | ``AAS ASCII adjust for subtraction`` |
-| ``08 PHP`` | ``ADC Add with Carry`` | ``ADC Add byte or word with carry`` |
-| ``09 ORA #nn`` | ``ADD Add`` | ``ADD Add byte or word`` |
-| ``0A ASL A`` | ``AND Logical AND between all bits of two operands`` | ``AND "And" byte or word`` |
-| ``0D ORA aaaa`` | ``CALL Transfers control to procedure`` | ``BOUND Detects values outside prescribed range`` |
-| ``0E ASL aaaa`` | ``CBW Convert byte into word`` | ``CALL Call procedure`` |
-| ``10 BPL aa`` | ``CLC Clear Carry flag`` | ``CBW Convert byte to word`` |
-| ``11 ORA (aa),Y`` | ``CLD Clear Direction flag`` | ``CLC Clear carry flag`` |
-| ``15 ORA aa,X`` | ``CLI Clear Interrupt enable flag`` | ``CLD Clear direction flag`` |
-| ``16 ASL aa,Y`` | ``CMC Complement Carry flag`` | ``CLI Clear interrupt enable flag`` |
-| ``18 CLC`` | ``CMP Compare`` | ``CMC Complement carry flag`` |
-| ``19 ORA aaaa,Y`` | ``CMPSB Compare bytes: ES:[DI] from DS:[SI]`` | ``CMP Compare byte or word`` |
-| ``1D ORA aaaa,X`` | ``CMPSW Compare words: ES:[DI] from DS:[SI]`` | ``CMPS Compare byte or word string`` |
-| ``1E ASL aaaa,X`` | ``CWD Convert Word to Double word`` | ``CWD Convert word to doubleword`` |
-| ``20 JSR aaaa`` | ``DAA Decimal adjust After Addition`` | ``DAA Decimal adjust for addition`` |
-| ``21 AND (aa,X)`` | ``DAS Decimal adjust After Subtraction`` | ``DAS Decimal adjust for subtraction`` |
-| ``24 BIT aa`` | ``DEC Decrement`` | ``DEC Decrement byte or word by 1`` |
-| ``25 AND aa`` | ``DIV Unsigned divide`` | ``DIV Divide byte or word unsigned`` |
-| ``26 ROL aa`` | ``HLT Halt the System`` | ``ENTER Format stack for procedure entry`` |
-| ``28 PLP`` | ``IDIV Signed divide`` | ``ESC Escape to extension processor`` |
-| ``29 AND #nn`` | ``IMUL Signed multiply`` | ``HLT Halt until interrupt or reset`` |
-| ``2A ROL A`` | ``IN Input from port into AL or AX`` | ``IDIV Integer divide byte or word`` |
-| ``2C BIT aaaa`` | ``INC Increment`` | ``IMUL Integer multiply byte or word`` |
-| ``2D AND aaaa`` | ``INT Interrupt numbered by immediate byte (0..255)`` | ``IN Input byte or word`` |
-| ``2E ROL aaaa`` | ``INTO Interrupt 4 if Overflow flag is 1`` | ``INC Increment byte or word by 1`` |
-| ``30 BMI aa`` | ``IRET Interrupt Return`` | ``INS Input bytes or word string`` |
-| ``31 AND (aa),Y`` | ``JA Short Jump if first operand is Above second operand (as set by CMP instruction)`` | ``INT Interrupt`` |
-| ``35 AND aa,X`` | ``JAE Short Jump if first operand is Above or Equal to second operand (as set by CMP instruction)`` | ``INTO Interrupt if overflow`` |
-| ``36 ROL aa,X`` | ``JB Short Jump if first operand is Below second operand (as set by CMP instruction)`` | ``IRET Interrupt return`` |
-| ``38 SEC`` | ``JBE Short Jump if first operand is Below or Equal to second operand (as set by CMP instruction)`` | ``JA Jump if above`` |
-| ``39 AND aaaa,Y`` | ``JC Short Jump if Carry flag is set to 1`` | ``JAE Jump if above or equal`` |
-| ``3D AND aaaa,X`` | ``JCXZ Short Jump if CX register is 0`` | ``JB Jump if below`` |
-| ``3E ROL aaaa,X`` | ``JE Short Jump if first operand is Equal to second operand (as set by CMP instruction)`` | ``JBE Jump if below or equal`` |
-| ``40 RTI`` | ``JG Short Jump if first operand is Greater then second operand (as set by CMP instruction)`` | ``JC Jump if carry`` |
-| ``41 EOR (aa,X)`` | ``JGE Short Jump if first operand is Greater or Equal to second operand (as set by CMP instruction)`` | ``JCXZ Jump if register CX = 0`` |
-| ``45 EOR aa`` | ``JL Short Jump if first operand is Less then second operand (as set by CMP instruction)`` | ``JE Jump if equal`` |
-| ``46 LSR aa`` | ``JLE Short Jump if first operand is Less or Equal to second operand (as set by CMP instruction)`` | ``JG Jump if greater`` |
-| ``48 PHA`` | ``JMP Unconditional Jump. Transfers control to another part of the program`` | ``JGE Jump if greater or equal`` |
-| ``...`` | ``JNA Short Jump if first operand is Not Above second operand (as set by CMP instruction)`` | ``JL Jump if less`` |
-| ``59 EOR aaaa,Y`` | ``JNAE Short Jump if first operand is Not Above and Not Equal to second operand (as set by CMP instruction)`` | ``JLE Jump if less or equal`` |
-| ``5D EOR aaaa,X`` | ``JNB Short Jump if first operand is Not Below second operand (as set by CMP instruction)`` | ``JMP Jump`` |
-| ``5E LSR aaaa,X`` | ``JNBE Short Jump if first operand is Not Below and Not Equal to second operand (as set by CMP instruction)`` | ``JNA Jump if not above`` |
-| ``60 RTS`` | ``JNC Short Jump if Carry flag is set to 0`` | ``JNAE Jump if not above nor equal`` |
-| ``61 ADC (aa,X)`` | ``JNE Short Jump if first operand is Not Equal to second operand (as set by CMP instruction)`` | ``JNB Jump if not below`` |
-| ``65 ADC aa`` | ``JNG Short Jump if first operand is Not Greater then second operand (as set by CMP instruction)`` | ``JNBE Jump if not below nor equal`` |
-| ``66 ROR aa`` | ``JNGE Short Jump if first operand is Not Greater and Not Equal to second operand (as set by CMP instruction)`` | ``JNC Jump if not carry`` |
-| ``68 PLA`` | ``JNL Short Jump if first operand is Not Less then second operand (as set by CMP instruction)`` | ``JNE Jump if not equal`` |
-| ``69 ADC #nn`` | ``JNLE Short Jump if first operand is Not Less and Not Equal to second operand (as set by CMP instruction)`` | ``JNG Jump if not greater`` |
-| ``6A ROR A`` | ``JNO Short Jump if Not Overflow`` | ``JNGE Jump if not greater nor equal`` |
-| ``6C JMP (aaaa)`` | ``JNP Short Jump if No Parity (odd)`` | ``JNL Jump if not less`` |
-| ``6D ADC aaaa`` | ``JNS Short Jump if Not Signed (if positive)`` | ``JNLE Jump if not less nor equal`` |
-| ``6E ROR aaaa`` | ``JNZ Short Jump if Not Zero (not equal)`` | ``JNO Jump if not overflow`` |
-| ``70 BVS aa`` | ``JO Short Jump if Overflow`` | ``JNP Jump if not parity`` |
-| ``71 ADC (aa),Y`` | ``JP Short Jump if Parity (even)`` | ``JNS Jump if not sign`` |
-| ``75 ADC aa,X`` | ``JPE Short Jump if Parity Even`` | ``JNZ Jump if not zero`` |
-| ``76 ROR aa,X`` | ``JPO Short Jump if Parity Odd`` | ``JO Jump if overflow`` |
-| ``78 SEI`` | ``JS Short Jump if Signed (if negative)`` | ``JP Jump if parity`` |
-| ``79 ADC aaaa,Y`` | ``JZ Short Jump if Zero (equal)`` | ``JPE Jump if parity even`` |
-| ``7D ADC aaaa,X`` | ``LAHF Load AH from 8 low bits of Flags register`` | ``JPO Jump if parity odd`` |
-| ``7E ROR aaaa,X`` | ``LDS Load memory double word into word register and DS`` | ``JS Jump if sign`` |
-| ``81 STA (aa,X)`` | ``LEA Load Effective Address`` | ``JZ Jump if zero`` |
-| ``84 STY aa`` | ``LES Load memory double word into word register and ES`` | ``LAHF Load AH register from flags`` |
-| ``85 STA aa`` | ``LODSB Load byte at DS:[SI] into AL`` | ``LDS Load pointer using DS`` |
-| ``86 STX aa`` | ``LODSW Load word at DS:[SI] into AX`` | ``LEA Load effective address`` |
-| ``88 DEY`` | ``LOOP Decrease CX, jump to label if CX not zero`` | ``LEAVE Restore stack for procedure exit`` |
-| ``8A TXA`` | ``LOOPE Decrease CX, jump to label if CX not zero and Equal (ZF = 1)`` | ``LES Load pointer using ES`` |
-| ``8C STY aaaa`` | ``LOOPNE Decrease CX, jump to label if CX not zero and Not Equal (ZF = 0)`` | ``LMSW Load machine status word`` |
-| ``BE STX aaaa`` | ``LOOPNZ Decrease CX, jump to label if CX not zero and ZF = 0`` | ``LOCK Lock bus during next instruction`` |
-| ``8D STA aaaa`` | ``LOOPZ Decrease CX, jump to label if CX not zero and ZF = 1`` | ``LODS Load byte or word string`` |
-| ``90 BCC aa`` | ``MOV Copy operand2 to operand1`` | ``LOOP Loop`` |
-| ``91 STA (aa),Y`` | ``MOVSB Copy byte at DS:[SI] to ES:[DI]. Update SI and DI`` | ``LOOPE Loop if equal`` |
-| ``94 STY aa,X`` | ``MOVSW Copy word at DS:[SI] to ES:[DI]. Update SI and DI`` | ``LOOPNE Loop if not equal`` |
-| ``95 STA aa,X`` | ``MUL Unsigned multiply`` | ``LOOPNZ Loop if not zero`` |
-| ``96 STX aa,Y`` | ``NEG Negate. Makes operand negative`` | ``LOOPZ Loop if zero`` |
-| ``98 TYA`` | ``NOP No Operation`` | ``MOV Move byte or word`` |
-| ``99 STA aaaa,Y`` | ``NOT Invert each bit of the operand`` | ``MOVS Move byte or word string`` |
-| ``9A TXS`` | ``OR Logical OR between all bits of two operands`` | ``MUL Multiply byte or word unsigned`` |
-| ``9D STA aaaa,X`` | ``OUT Output from AL or AX to port`` | ``NEG Negate byte or word`` |
-| ``A0 LDY #nn`` | ``POP Get 16 bit value from the stack  `` | ``NOP No operation`` |
-| ``A1 LDA (aa,X)`` | ``POPF Get flags register from the stack`` | ``NOT "Not" byte or word`` |
-| ``...`` | ``PUSH Store 16 bit value in the stack.`` | ``OR "Inclusive or" byte or word`` |
-| ``AE LDX aaaa`` | ``PUSHF Store flags register in the stack`` | ``OUT Output byte or word`` |
-| ``B0 BCS aa`` | ``RCL Rotate operand1 left through Carry Flag`` | ``OUTS Output bytes or word string`` |
-| ``B1 LDA (aa),Y`` | ``RCR Rotate operand1 right through Carry Flag`` | ``POP Pop word off stack`` |
-| ``B4 LDY aa,X`` | ``REP Repeat following MOVSB, MOVSW, LODSB, LODSW, STOSB, STOSW instructions CX times`` | ``POPA Pop all registers from stack`` |
-| ``B5 LDA aa,X`` | ``REPE Repeat following CMPSB, CMPSW, SCASB, SCASW instructions while ZF = 1 (result is Equal), maximum CX times`` | ``POPF Pop flags off stack`` |
-| ``B6 LDX aa,Y`` | ``REPNE Repeat following CMPSB, CMPSW, SCASB, SCASW instructions while ZF = 0 (result is Not Equal), maximum CX times`` | ``PUSH Push word onto stack`` |
-| ``B8 CLV`` | ``REPNZ Repeat following CMPSB, CMPSW, SCASB, SCASW instructions while ZF = 0 (result is Not Zero), maximum CX times`` | ``PUSHA Push all registers on stack`` |
-| ``B9 LDA aaaa,Y`` | ``REPZ Repeat following CMPSB, CMPSW, SCASB, SCASW instructions while ZF = 1 (result is Zero), maximum CX times`` | ``PUSHF Push flags onto stack`` |
-| ``BA TSX`` | ``RET Return from near procedure`` | ``RCL Rotate through carry left byte or word`` |
-| ``BC LDY aaaa,Y`` | ``RETF Return from Far procedure`` | ``RCR Rotate through carry right byte or word`` |
-| ``BD LDA aaaa,X`` | ``ROL Rotate operand1 left`` | ``REP Repeat`` |
-| ``BE LDX aaaa,Y`` | ``ROR Rotate operand1 right  `` | ``REPE Repeat while equal`` |
-| ``C0 CPY #nn`` | ``SAHF Store AH register into low 8 bits of Flags register`` | ``REPNE Repeat while not equal`` |
-| ``C1 CMP (aa,X)`` | ``SAL Shift Arithmetic operand1 Left  `` | ``REPNZ Repeat while not not zero`` |
-| ``C4 CPY aa`` | ``SAR Shift Arithmetic operand1 Right  `` | ``REPZ Repeat while zero`` |
-| ``C5 CMP aa`` | ``SBB Subtract with Borrow`` | ``RET Return from procedure`` |
-| ``C6 DEC aa`` | ``SCASB Compare bytes: AL from ES:[DI]`` | ``ROL Rotate left byte or word`` |
-| ``C8 INY`` | ``SCASW Compare words: AX from ES:[DI]`` | ``ROR Rotate right byte or word`` |
-| ``C9 CMP #nn`` | ``SHL Shift operand1 Left  `` | ``SAHF Store AH register in flags`` |
-| ``CA DEX`` | ``SHR Shift operand1 Right  `` | ``SAR Shift arithmetic right byte or word`` |
-| ``CC CPY aaaa`` | ``STC Set Carry flag`` | ``SBB Subtract byte or word with borrow`` |
-| ``CD CMP aaaa`` | ``STD Set Direction flag`` | ``SCAS Scan byte or word string`` |
-| ``CE DEC aaaa`` | ``STI Set Interrupt enable flag`` | ``SHR Shift logical right byte or word`` |
-| ``D0 BNE aa`` | ``STOSB Store byte in AL into ES:[DI]`` | ``SMSW Store machine status word`` |
-| ``D1 CMP (aa),Y`` | ``STOSW Store word in AX into ES:[DI]`` | ``STC Set carry flag`` |
-| ``D5 CMP aa,X`` | ``SUB Subtract`` | ``STD Set direction flag`` |
-| ``D6 DEC aa,X`` | ``TEST Logical AND between all bits of two operands for flags only`` | ``STI Set interrupt enable flag`` |
-| ``D8 CLD`` | ``XCHG Exchange values of two operands`` | ``STOS Store byte or word string`` |
-| ``D9 CMP aaaa,Y`` | ``XLATB Translate byte from table`` | ``SUB Subtract byte or word`` |
-| ``DD CMP aaaa,X`` | ``XOR Logical XOR (Exclusive OR) between all bits of two operands`` | ``TEST "Test" byte or word`` |
-| ``DE DEC aaaa,X`` |  | ``WAIT Wait for BUSY not active`` |
-| ``E0 CPX #nn`` |  | ``XCHG Exchange byte or word`` |
-| ``E1 SBC (aa,X)`` |  | ``XLAT Translate byte`` |
-| ``E4 CPX aa`` |  | ``XOR "Exclusive or" byte or word`` |
-| ``E5 SBC aa`` |  |  |
-| ``E6 INC aa`` |  |  |
-| ``E8 INX`` |  |  |
-| ``E9 SBC #nn`` |  |  |
-| ``EA NOP`` |  |  |
-| ``EC CPX aaaa`` |  |  |
-| ``ED SBC aaaa`` |  |  |
-| ``...`` |  |  |
+| Atari 65XE<br><img width=1000/> | Intel 8086<br><img width=1000/>                                                                                         | Intel 80286<br><img width=1000/>                  |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| ``00`` ``BRK``                  | ``AAA`` Adjust after Addition                                                                                           | ``AAA`` ASCII adjust for addition                 |
+| ``01`` ``ORA (aa,X)``           | ``AAD`` ASCII Adjust before Division                                                                                    | ``AAD`` ASCII adjust for division                 |
+| ``05`` ``ORA aa``               | ``AAM`` ASCII Adjust after Multiplication                                                                               | ``AAM`` ASCII adjust for multiply                 |
+| ``06`` ``ASL aa``               | ``AAS`` ASCII Adjust after Subtraction                                                                                  | ``AAS`` ASCII adjust for subtraction              |
+| ``08`` ``PHP``                  | ``ADC`` Add with Carry                                                                                                  | ``ADC`` Add byte or word with carry               |
+| ``09`` ``ORA #nn``              | ``ADD`` Add                                                                                                             | ``ADD`` Add byte or word                          |
+| ``0A`` ``ASL A``                | ``AND`` Logical AND between all bits of two operands                                                                    | ``AND`` "And" byte or word                        |
+| ``0D`` ``ORA aaaa``             | ``CALL`` Transfers control to procedure                                                                                 | ``BOUND`` Detects values outside prescribed range |
+| ``0E`` ``ASL aaaa``             | ``CBW`` Convert byte into word                                                                                          | ``CALL`` Call procedure                           |
+| ``10`` ``BPL aa``               | ``CLC`` Clear Carry flag                                                                                                | ``CBW`` Convert byte to word                      |
+| ``11`` ``ORA (aa),Y``           | ``CLD`` Clear Direction flag                                                                                            | ``CLC`` Clear carry flag                          |
+| ``15`` ``ORA aa,X``             | ``CLI`` Clear Interrupt enable flag                                                                                     | ``CLD`` Clear direction flag                      |
+| ``16`` ``ASL aa,Y``             | ``CMC`` Complement Carry flag                                                                                           | ``CLI`` Clear interrupt enable flag               |
+| ``18`` ``CLC``                  | ``CMP`` Compare                                                                                                         | ``CMC`` Complement carry flag                     |
+| ``19`` ``ORA aaaa,Y``           | ``CMPSB`` Compare bytes: ES:[DI] from DS:[SI]                                                                           | ``CMP`` Compare byte or word                      |
+| ``1D`` ``ORA aaaa,X``           | ``CMPSW`` Compare words: ES:[DI] from DS:[SI]                                                                           | ``CMPS`` Compare byte or word string              |
+| ``1E`` ``ASL aaaa,X``           | ``CWD`` Convert Word to Double word                                                                                     | ``CWD`` Convert word to doubleword                |
+| ``20`` ``JSR aaaa``             | ``DAA`` Decimal adjust After Addition                                                                                   | ``DAA`` Decimal adjust for addition               |
+| ``21`` ``AND (aa,X)``           | ``DAS`` Decimal adjust After Subtraction                                                                                | ``DAS`` Decimal adjust for subtraction            |
+| ``24`` ``BIT aa``               | ``DEC`` Decrement                                                                                                       | ``DEC`` Decrement byte or word by 1               |
+| ``25`` ``AND aa``               | ``DIV`` Unsigned divide                                                                                                 | ``DIV`` Divide byte or word unsigned              |
+| ``26`` ``ROL aa``               | ``HLT`` Halt the System                                                                                                 | ``ENTER`` Format stack for procedure entry        |
+| ``28`` ``PLP``                  | ``IDIV`` Signed divide                                                                                                  | ``ESC`` Escape to extension processor             |
+| ``29`` ``AND #nn``              | ``IMUL`` Signed multiply                                                                                                | ``HLT`` Halt until interrupt or reset             |
+| ``2A`` ``ROL A``                | ``IN`` Input from port into AL or AX                                                                                    | ``IDIV`` Integer divide byte or word              |
+| ``2C`` ``BIT aaaa``             | ``INC`` Increment                                                                                                       | ``IMUL`` Integer multiply byte or word            |
+| ``2D`` ``AND aaaa``             | ``INT`` Interrupt numbered by immediate byte (0..255)                                                                   | ``IN`` Input byte or word                         |
+| ``2E`` ``ROL aaaa``             | ``INTO`` Interrupt 4 if Overflow flag is 1                                                                              | ``INC`` Increment byte or word by 1               |
+| ``30`` ``BMI aa``               | ``IRET`` Interrupt Return                                                                                               | ``INS`` Input bytes or word string                |
+| ``31`` ``AND (aa),Y``           | ``JA`` Short Jump if first operand is Above second operand (as set by CMP instruction)                                  | ``INT`` Interrupt                                 |
+| ``35`` ``AND aa,X``             | ``JAE`` Short Jump if first operand is Above or Equal to second operand (as set by CMP instruction)                     | ``INTO`` Interrupt if overflow                    |
+| ``36`` ``ROL aa,X``             | ``JB`` Short Jump if first operand is Below second operand (as set by CMP instruction)                                  | ``IRET`` Interrupt return                         |
+| ``38`` ``SEC``                  | ``JBE`` Short Jump if first operand is Below or Equal to second operand (as set by CMP instruction)                     | ``JA`` Jump if above                              |
+| ``39`` ``AND aaaa,Y``           | ``JC`` Short Jump if Carry flag is set to 1                                                                             | ``JAE`` Jump if above or equal                    |
+| ``3D`` ``AND aaaa,X``           | ``JCXZ`` Short Jump if CX register is 0                                                                                 | ``JB`` Jump if below                              |
+| ``3E`` ``ROL aaaa,X``           | ``JE`` Short Jump if first operand is Equal to second operand (as set by CMP instruction)                               | ``JBE`` Jump if below or equal                    |
+| ``40`` ``RTI``                  | ``JG`` Short Jump if first operand is Greater then second operand (as set by CMP instruction)                           | ``JC`` Jump if carry                              |
+| ``41`` ``EOR (aa,X)``           | ``JGE`` Short Jump if first operand is Greater or Equal to second operand (as set by CMP instruction)                   | ``JCXZ`` Jump if register CX = 0                  |
+| ``45`` ``EOR aa``               | ``JL`` Short Jump if first operand is Less then second operand (as set by CMP instruction)                              | ``JE`` Jump if equal                              |
+| ``46`` ``LSR aa``               | ``JLE`` Short Jump if first operand is Less or Equal to second operand (as set by CMP instruction)                      | ``JG`` Jump if greater                            |
+| ``48`` ``PHA``                  | ``JMP`` Unconditional Jump. Transfers control to another part of the program                                            | ``JGE`` Jump if greater or equal                  |
+| ...                             | ``JNA`` Short Jump if first operand is Not Above second operand (as set by CMP instruction)                             | ``JL`` Jump if less                               |
+| ``59`` ``EOR aaaa,Y``           | ``JNAE`` Short Jump if first operand is Not Above and Not Equal to second operand (as set by CMP instruction)           | ``JLE`` Jump if less or equal                     |
+| ``5D`` ``EOR aaaa,X``           | ``JNB`` Short Jump if first operand is Not Below second operand (as set by CMP instruction)                             | ``JMP`` Jump                                      |
+| ``5E`` ``LSR aaaa,X``           | ``JNBE`` Short Jump if first operand is Not Below and Not Equal to second operand (as set by CMP instruction)           | ``JNA`` Jump if not above                         |
+| ``60`` ``RTS``                  | ``JNC`` Short Jump if Carry flag is set to 0                                                                            | ``JNAE`` Jump if not above nor equal              |
+| ``61`` ``ADC (aa,X)``           | ``JNE`` Short Jump if first operand is Not Equal to second operand (as set by CMP instruction)                          | ``JNB`` Jump if not below                         |
+| ``65`` ``ADC aa``               | ``JNG`` Short Jump if first operand is Not Greater then second operand (as set by CMP instruction)                      | ``JNBE`` Jump if not below nor equal              |
+| ``66`` ``ROR aa``               | ``JNGE`` Short Jump if first operand is Not Greater and Not Equal to second operand (as set by CMP instruction)         | ``JNC`` Jump if not carry                         |
+| ``68`` ``PLA``                  | ``JNL`` Short Jump if first operand is Not Less then second operand (as set by CMP instruction)                         | ``JNE`` Jump if not equal                         |
+| ``69`` ``ADC #nn``              | ``JNLE`` Short Jump if first operand is Not Less and Not Equal to second operand (as set by CMP instruction)            | ``JNG`` Jump if not greater                       |
+| ``6A`` ``ROR A``                | ``JNO`` Short Jump if Not Overflow                                                                                      | ``JNGE`` Jump if not greater nor equal            |
+| ``6C`` ``JMP (aaaa)``           | ``JNP`` Short Jump if No Parity (odd)                                                                                   | ``JNL`` Jump if not less                          |
+| ``6D`` ``ADC aaaa``             | ``JNS`` Short Jump if Not Signed (if positive)                                                                          | ``JNLE`` Jump if not less nor equal               |
+| ``6E`` ``ROR aaaa``             | ``JNZ`` Short Jump if Not Zero (not equal)                                                                              | ``JNO`` Jump if not overflow                      |
+| ``70`` ``BVS aa``               | ``JO`` Short Jump if Overflow                                                                                           | ``JNP`` Jump if not parity                        |
+| ``71`` ``ADC (aa),Y``           | ``JP`` Short Jump if Parity (even)                                                                                      | ``JNS`` Jump if not sign                          |
+| ``75`` ``ADC aa,X``             | ``JPE`` Short Jump if Parity Even                                                                                       | ``JNZ`` Jump if not zero                          |
+| ``76`` ``ROR aa,X``             | ``JPO`` Short Jump if Parity Odd                                                                                        | ``JO`` Jump if overflow                           |
+| ``78`` ``SEI``                  | ``JS`` Short Jump if Signed (if negative)                                                                               | ``JP`` Jump if parity                             |
+| ``79`` ``ADC aaaa,Y``           | ``JZ`` Short Jump if Zero (equal)                                                                                       | ``JPE`` Jump if parity even                       |
+| ``7D`` ``ADC aaaa,X``           | ``LAHF`` Load AH from 8 low bits of Flags register                                                                      | ``JPO`` Jump if parity odd                        |
+| ``7E`` ``ROR aaaa,X``           | ``LDS`` Load memory double word into word register and DS                                                               | ``JS`` Jump if sign                               |
+| ``81`` ``STA (aa,X)``           | ``LEA`` Load Effective Address                                                                                          | ``JZ`` Jump if zero                               |
+| ``84`` ``STY aa``               | ``LES`` Load memory double word into word register and ES                                                               | ``LAHF`` Load AH register from flags              |
+| ``85`` ``STA aa``               | ``LODSB`` Load byte at DS:[SI] into AL                                                                                  | ``LDS`` Load pointer using DS                     |
+| ``86`` ``STX aa``               | ``LODSW`` Load word at DS:[SI] into AX                                                                                  | ``LEA`` Load effective address                    |
+| ``88`` ``DEY``                  | ``LOOP`` Decrease CX, jump to label if CX not zero                                                                      | ``LEAVE`` Restore stack for procedure exit        |
+| ``8A`` ``TXA``                  | ``LOOPE`` Decrease CX, jump to label if CX not zero and Equal (ZF = 1)                                                  | ``LES`` Load pointer using ES                     |
+| ``8C`` ``STY aaaa``             | ``LOOPNE`` Decrease CX, jump to label if CX not zero and Not Equal (ZF = 0)                                             | ``LMSW`` Load machine status word                 |
+| ``BE`` ``STX aaaa``             | ``LOOPNZ`` Decrease CX, jump to label if CX not zero and ZF = 0                                                         | ``LOCK`` Lock bus during next instruction         |
+| ``8D`` ``STA aaaa``             | ``LOOPZ`` Decrease CX, jump to label if CX not zero and ZF = 1                                                          | ``LODS`` Load byte or word string                 |
+| ``90`` ``BCC aa``               | ``MOV`` Copy operand2 to operand1                                                                                       | ``LOOP`` Loop                                     |
+| ``91`` ``STA (aa),Y``           | ``MOVSB`` Copy byte at DS:[SI] to ES:[DI]. Update SI and DI                                                             | ``LOOPE`` Loop if equal                           |
+| ``94`` ``STY aa,X``             | ``MOVSW`` Copy word at DS:[SI] to ES:[DI]. Update SI and DI                                                             | ``LOOPNE`` Loop if not equal                      |
+| ``95`` ``STA aa,X``             | ``MUL`` Unsigned multiply                                                                                               | ``LOOPNZ`` Loop if not zero                       |
+| ``96`` ``STX aa,Y``             | ``NEG`` Negate. Makes operand negative                                                                                  | ``LOOPZ`` Loop if zero                            |
+| ``98`` ``TYA``                  | ``NOP`` No Operation                                                                                                    | ``MOV`` Move byte or word                         |
+| ``99`` ``STA aaaa,Y``           | ``NOT`` Invert each bit of the operand                                                                                  | ``MOVS`` Move byte or word string                 |
+| ``9A`` ``TXS``                  | ``OR`` Logical OR between all bits of two operands                                                                      | ``MUL`` Multiply byte or word unsigned            |
+| ``9D`` ``STA aaaa,X``           | ``OUT`` Output from AL or AX to port                                                                                    | ``NEG`` Negate byte or word                       |
+| ``A0`` ``LDY #nn``              | ``POP`` Get 16 bit value from the stack                                                                                 | ``NOP`` No operation                              |
+| ``A1`` ``LDA (aa,X)``           | ``POPF`` Get flags register from the stack                                                                              | ``NOT`` "Not" byte or word                        |
+| ...                             | ``PUSH`` Store 16 bit value in the stack                                                                                | ``OR`` "Inclusive or" byte or word                |
+| ``AE`` ``LDX aaaa``             | ``PUSHF`` Store flags register in the stack                                                                             | ``OUT`` Output byte or word                       |
+| ``B0`` ``BCS aa``               | ``RCL`` Rotate operand1 left through Carry Flag                                                                         | ``OUTS`` Output bytes or word string              |
+| ``B1`` ``LDA (aa),Y``           | ``RCR`` Rotate operand1 right through Carry Flag                                                                        | ``POP`` Pop word off stack                        |
+| ``B4`` ``LDY aa,X``             | ``REP`` Repeat following MOVSB, MOVSW, LODSB, LODSW, STOSB, STOSW instructions CX times                                 | ``POPA`` Pop all registers from stack             |
+| ``B5`` ``LDA aa,X``             | ``REPE`` Repeat following CMPSB, CMPSW, SCASB, SCASW instructions while ZF = 1 (result is Equal), maximum CX times      | ``POPF`` Pop flags off stack                      |
+| ``B6`` ``LDX aa,Y``             | ``REPNE`` Repeat following CMPSB, CMPSW, SCASB, SCASW instructions while ZF = 0 (result is Not Equal), maximum CX times | ``PUSH`` Push word onto stack                     |
+| ``B8`` ``CLV``                  | ``REPNZ`` Repeat following CMPSB, CMPSW, SCASB, SCASW instructions while ZF = 0 (result is Not Zero), maximum CX times  | ``PUSHA`` Push all registers on stack             |
+| ``B9`` ``LDA aaaa,Y``           | ``REPZ`` Repeat following CMPSB, CMPSW, SCASB, SCASW instructions while ZF = 1 (result is Zero), maximum CX times       | ``PUSHF`` Push flags onto stack                   |
+| ``BA`` ``TSX``                  | ``RET`` Return from near procedure                                                                                      | ``RCL`` Rotate through carry left byte or word    |
+| ``BC`` ``LDY aaaa,Y``           | ``RETF`` Return from Far procedure                                                                                      | ``RCR`` Rotate through carry right byte or word   |
+| ``BD`` ``LDA aaaa,X``           | ``ROL`` Rotate operand1 left                                                                                            | ``REP`` Repeat                                    |
+| ``BE`` ``LDX aaaa,Y``           | ``ROR`` Rotate operand1 right                                                                                           | ``REPE`` Repeat while equal                       |
+| ``C0`` ``CPY #nn``              | ``SAHF`` Store AH register into low 8 bits of Flags register                                                            | ``REPNE`` Repeat while not equal                  |
+| ``C1`` ``CMP (aa,X)``           | ``SAL`` Shift Arithmetic operand1 Left                                                                                  | ``REPNZ`` Repeat while not not zero               |
+| ``C4`` ``CPY aa``               | ``SAR`` Shift Arithmetic operand1 Right                                                                                 | ``REPZ`` Repeat while zero                        |
+| ``C5`` ``CMP aa``               | ``SBB`` Subtract with Borrow                                                                                            | ``RET`` Return from procedure                     |
+| ``C6`` ``DEC aa``               | ``SCASB`` Compare bytes: AL from ES:[DI]                                                                                | ``ROL`` Rotate left byte or word                  |
+| ``C8`` ``INY``                  | ``SCASW`` Compare words: AX from ES:[DI]                                                                                | ``ROR`` Rotate right byte or word                 |
+| ``C9`` ``CMP #nn``              | ``SHL`` Shift operand1 Left                                                                                             | ``SAHF`` Store AH register in flags               |
+| ``CA`` ``DEX``                  | ``SHR`` Shift operand1 Right                                                                                            | ``SAR`` Shift arithmetic right byte or word       |
+| ``CC`` ``CPY aaaa``             | ``STC`` Set Carry flag                                                                                                  | ``SBB`` Subtract byte or word with borrow         |
+| ``CD`` ``CMP aaaa``             | ``STD`` Set Direction flag                                                                                              | ``SCAS`` Scan byte or word string                 |
+| ``CE`` ``DEC aaaa``             | ``STI`` Set Interrupt enable flag                                                                                       | ``SHR`` Shift logical right byte or word          |
+| ``D0`` ``BNE aa``               | ``STOSB`` Store byte in AL into ES:[DI]                                                                                 | ``SMSW`` Store machine status word                |
+| ``D1`` ``CMP (aa),Y``           | ``STOSW`` Store word in AX into ES:[DI]                                                                                 | ``STC`` Set carry flag                            |
+| ``D5`` ``CMP aa,X``             | ``SUB`` Subtract                                                                                                        | ``STD`` Set direction flag                        |
+| ``D6`` ``DEC aa,X``             | ``TEST`` Logical AND between all bits of two operands for flags only                                                    | ``STI`` Set interrupt enable flag                 |
+| ``D8`` ``CLD``                  | ``XCHG`` Exchange values of two operands                                                                                | ``STOS`` Store byte or word string                |
+| ``D9`` ``CMP aaaa,Y``           | ``XLATB`` Translate byte from table                                                                                     | ``SUB`` Subtract byte or word                     |
+| ``DD`` ``CMP aaaa,X``           | ``XOR`` Logical XOR (Exclusive OR) between all bits of two operands                                                     | ``TEST`` "Test" byte or word                      |
+| ``DE`` ``DEC aaaa,X``           |                                                                                                                         | ``WAIT`` Wait for BUSY not active                 |
+| ``E0`` ``CPX #nn``              |                                                                                                                         | ``XCHG`` Exchange byte or word                    |
+| ``E1`` ``SBC (aa,X)``           |                                                                                                                         | ``XLAT`` Translate byte                           |
+| ``E4`` ``CPX aa``               |                                                                                                                         | ``XOR`` "Exclusive or" byte or word               |
+| ``E5`` ``SBC aa``               |                                                                                                                         |                                                   |
+| ``E6`` ``INC aa``               |                                                                                                                         |                                                   |
+| ``E8`` ``INX``                  |                                                                                                                         |                                                   |
+| ``E9`` ``SBC #nn``              |                                                                                                                         |                                                   |
+| ``EA`` ``NOP``                  |                                                                                                                         |                                                   |
+| ``EC`` ``CPX aaaa``             |                                                                                                                         |                                                   |
+| ``ED`` ``SBC aaaa``             |                                                                                                                         |                                                   |
+| ...                             |                                                                                                                         |                                                   |
 
 ## A Bit of History
 
