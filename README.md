@@ -282,4 +282,4 @@ You can use it in both **private** and **open source**, embed it in **free** or 
 > [!IMPORTANT]
 > By adding your code to a repository, you transfer the rights to the uploaded code to the owner of that repository **V O I D spawner**.
 
-Find out current **tasks** and **payment** at [**voidsp.com/task**](https://voidsp.com/task)
+Find out current **tasks** and **payment** at [**V O I D task**](https://github.com/voidspawner/void.task)
