@@ -216,7 +216,7 @@ message .byte "Hi World :D", 0 ; Message string
 
 ## A Bit of History
 
-The first computers were just **advanced calculators**. To operate such a calculator, the Operating System was a programming language. Thus the **[IBM 5100](https://en.wikipedia.org/wiki/IBM_5100)** operating system was represented by two languages **[BASIC](https://en.wikipedia.org/wiki/BASIC)** and **[APL](https://en.wikipedia.org/wiki/APL_(programming_language))** (for working with matrix and other scientific calculations).
+The first computers were just **advanced calculators**. Intel's first processor **[4004](https://en.wikipedia.org/wiki/Intel_4004)** was designed to run the **[Busicom](https://en.wikipedia.org/wiki/Busicom)** calculator. To operate such a calculator, the Operating System was a programming language. Thus the **[IBM 5100](https://en.wikipedia.org/wiki/IBM_5100)** operating system was represented by two languages **[BASIC](https://en.wikipedia.org/wiki/BASIC)** and **[APL](https://en.wikipedia.org/wiki/APL_(programming_language))** (for working with matrix and other scientific calculations).
 
 <img src="https://i.imgur.com/aZP4voi.jpeg" height=250> <img src="https://i.imgur.com/cf2aFtE.jpeg" height=250>
 
