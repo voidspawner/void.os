@@ -236,7 +236,7 @@ And even later, with the appearance of multitasking operating systems, applicati
 
 Computer technology is continually evolving.
 
-| <p align="center">**Type**</p> | <p align="center">**Name**</p>                                                    | <p align="center">**Year**</p> |
+| Type                     | Name                                                                                    | Year                           |
 | -----------------------  | --------------------------------------------------------------------------------------- | ------------------------------ |
 | **Print**                | [**Johannes Gutenberg's Printing Press**](https://en.wikipedia.org/wiki/Printing_press) | <p align="center">1440</p>     |
 | **Programmatic Control** | [**Jacquard Machine**](https://en.wikipedia.org/wiki/Jacquard_machine)                  | <p align="center">1804</p>     |
