@@ -85,7 +85,7 @@ done    rts           ; Return from the program
 message .byte "Hi World :D", 0 ; Message string
 ```
 
-| Atari 65XE<br><img width=1000>           | Intel 8086<br><img width=1000>                                                                                          | Intel 80286<br><img width=1000>                   |
+| MOS 6502<br><img width=1000>             | Intel 8086<br><img width=1000>                                                                                          | Intel 80286<br><img width=1000>                   |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | ``ADC`` Add with carry                   | ``AAA`` Adjust after Addition                                                                                           | ``AAA`` ASCII adjust for addition                 |
 | ``AND`` And (with accumulator)           | ``AAD`` ASCII Adjust before Division                                                                                    | ``AAD`` ASCII adjust for division                 |
