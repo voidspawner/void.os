@@ -36,7 +36,7 @@ Each application can run in a separate isolated space, with a limited set of act
 
 An operating system with **V O I D lang** that can run both on **modern** and **retro** computers, as well as emulate them.
 
-| <br><img width=1000> | [Atari 65XE](https://en.wikipedia.org/wiki/Atari_8-bit_computers)<br>MOS 6502<br><img width=1000> | [Intel 8086](https://en.wikipedia.org/wiki/Intel_8086)<br><img width=1000> | [Intel 80286](https://en.wikipedia.org/wiki/Intel_80286)<br><img width=1000> | [Intel Core i9](https://www.intel.com/content/www/us/en/products/sku/232167/intel-core-i913900ks-processor-36m-cache-up-to-6-00-ghz/specifications.html)<br><img width=1000> |
+| <br><img width=1000> | [Atari 65XE](https://en.wikipedia.org/wiki/Atari_8-bit_computers)<br>MOS Technology 6502<br><img width=1000> | [Intel 8086](https://en.wikipedia.org/wiki/Intel_8086)<br><img width=1000> | [Intel 80286](https://en.wikipedia.org/wiki/Intel_80286)<br><img width=1000> | [Intel Core i9](https://www.intel.com/content/www/us/en/products/sku/232167/intel-core-i913900ks-processor-36m-cache-up-to-6-00-ghz/specifications.html)<br><img width=1000> |
 | ----------------- | ---------------------------------- | ------------------------------ | ------------------------------ | ------------------------------------ |
 | **Year**          | <p align="center">1985</p>         | <p align="center">1978</p>     | <p align="center">1982</p>     | <p align="center">2023</p>           |
 | **Transistors**   | <p align="center">3 510</p>        | <p align="center">29 000</p>   | <p align="center">134 000</p>  | <p align="center">17 800 000 000</p> |
@@ -85,7 +85,7 @@ done    rts           ; Return from the program
 message .byte "Hi World :D", 0 ; Message string
 ```
 
-| MOS 6502<br><img width=1000>             | Intel 8086<br><img width=1000>                                                                                          | Intel 80286<br><img width=1000>                   |
+| MOS Technology 6502<br><img width=1000>  | Intel 8086<br><img width=1000>                                                                                          | Intel 80286<br><img width=1000>                   |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | ``ADC`` Add with carry                   | ``AAA`` Adjust after Addition                                                                                           | ``AAA`` ASCII adjust for addition                 |
 | ``AND`` And (with accumulator)           | ``AAD`` ASCII Adjust before Division                                                                                    | ``AAD`` ASCII adjust for division                 |
