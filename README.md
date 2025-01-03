@@ -61,7 +61,7 @@ An operating system with **V O I D lang** that can run both on **modern** and **
 | **Rows**          | <p align="center">24</p>           | <p align="center">25</p>       | <p align="center">25</p>       | <p align="center">-</p>              |
 | **Colors**        | <p align="center">16 (256)</p>     | <p align="center">16 (64)</p>  | <p align="center">16 (64)</p>  | <p align="center">68 719 476 736</p> |
 
-The operating system can be written using **[Assembly](https://en.wikipedia.org/wiki/Assembly_language)** and **[C++](https://en.wikipedia.org/wiki/C++)** languages. Or the direct use of **V O I D lang** with **[opcodes](https://en.wikipedia.org/wiki/Opcode)**.
+The operating system can be written using **[Assembly](https://en.wikipedia.org/wiki/Assembly_language)** and **[C++](https://en.wikipedia.org/wiki/C++)** languages. Or **V O I D lang** with the direct use of **[opcodes](https://en.wikipedia.org/wiki/Opcode)**.
 
 ```assembly
         .org $c000    ; Starting address of the program
