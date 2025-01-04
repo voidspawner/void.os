@@ -51,6 +51,7 @@ An operating system with **V O I D lang** that can run both on **modern** and **
 | **Memory**        | <p align="center">64 kb</p>        | <p align="center">64 kb</p>    | <p align="center">640 kb</p>   | <p align="center">192 Gb</p>         |
 | **HDD**           | <p align="center">-</p>            | <p align="center">-</p>        | <p align="center">40 Mb</p>    | <p align="center">16 Tb</p>          |
 | **Floppy**        | <p align="center">5.25"</p>        | <p align="center">5.25"</p>    | <p align="center">5.25"</p>    | <p align="center">-</p>              |
+| **Cartridge**     | <p align="center">+</p>            | <p align="center">-</p>        | <p align="center">-</p>        | <p align="center">-</p>              |
 | **Cassette Tape** | <p align="center">+</p>            | <p align="center">-</p>        | <p align="center">-</p>        | <p align="center">-</p>              |
 | **Joystick**      | <p align="center">+</p>            | <p align="center">-</p>        | <p align="center">-</p>        | <p align="center">-</p>              |
 | **Mouse**         | <p align="center">+</p>            | <p align="center">+</p>        | <p align="center">+</p>        | <p align="center">+</p>              |
