@@ -54,7 +54,7 @@ An operating system with **V O I D lang** that can run both on **modern** and **
 | **Cartridge**     | <p align="center">+</p>            | <p align="center">-</p>        | <p align="center">-</p>        | <p align="center">-</p>              |
 | **Cassette Tape** | <p align="center">+</p>            | <p align="center">-</p>        | <p align="center">-</p>        | <p align="center">-</p>              |
 | **Joystick**      | <p align="center">+</p>            | <p align="center">-</p>        | <p align="center">-</p>        | <p align="center">-</p>              |
-| **Mouse**         | <p align="center">+</p>            | <p align="center">+</p>        | <p align="center">+</p>        | <p align="center">+</p>              |
+| **Mouse**         | <p align="center">-</p>            | <p align="center">+</p>        | <p align="center">+</p>        | <p align="center">+</p>              |
 | **Keyboard**      | <p align="center">+</p>            | <p align="center">+</p>        | <p align="center">+</p>        | <p align="center">+</p>              |
 | **Modem**         | <p align="center">300 baud</p>     | <p align="center">300 baud</p> | <p align="center">300 baud</p> | <p align="center">-</p>              |
 | **Monitor**       | <p align="center">[TV](https://en.wikipedia.org/wiki/Analog_television)</p> | <p align="center">[CGA](https://en.wikipedia.org/wiki/Color_Graphics_Adapter)</p> | <p align="center">[EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter)</p> | <p align="center">[8k](https://en.wikipedia.org/wiki/8K_resolution)</p> |
