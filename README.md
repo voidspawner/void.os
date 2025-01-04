@@ -39,29 +39,29 @@ An operating system with **V O I D lang** that can run both on **modern** and **
 | <br><img width=1000> | [Atari 65XE](https://en.wikipedia.org/wiki/Atari_8-bit_computers)<br><img width=1000> | [IBM PC](https://en.wikipedia.org/wiki/IBM_Personal_Computer)<br><img width=1000> | [IBM PC/AT](https://en.wikipedia.org/wiki/IBM_Personal_Computer_AT)<br><img width=1000> | Modern<br><img width=1000> |
 | ----------------- | ---------------------------------- | ------------------------------ | ------------------------------ | ------------------------------------ |
 | **Year**          | <p align="center">1985</p>         | <p align="center">1981</p>     | <p align="center">1984</p>     | <p align="center">2025</p>           |
-| **CPU**           | <p align="center">[MOS 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502)</p>     | <p align="center">[Intel 8086](https://en.wikipedia.org/wiki/Intel_8086)</p> | <p align="center">[Intel 80286](https://en.wikipedia.org/wiki/Intel_80286)</p> | <p align="center">[Intel Core i9](https://www.intel.com/content/www/us/en/products/sku/232167/intel-core-i913900ks-processor-36m-cache-up-to-6-00-ghz/specifications.html)</p> |
-| **CPU Released**  | <p align="center">1975</p>         | <p align="center">1978</p>     | <p align="center">1982</p>     | <p align="center">2023</p>           |
+| **CPU**           | <p align="center">[MOS 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502)</p>     | <p align="center">[Intel 8088](https://en.wikipedia.org/wiki/Intel_8088)</p> | <p align="center">[Intel 80286](https://en.wikipedia.org/wiki/Intel_80286)</p> | <p align="center">[Intel Core i9](https://www.intel.com/content/www/us/en/products/sku/232167/intel-core-i913900ks-processor-36m-cache-up-to-6-00-ghz/specifications.html)</p> |
+| **CPU Released**  | <p align="center">1975</p>         | <p align="center">1979</p>     | <p align="center">1982</p>     | <p align="center">2023</p>           |
 | **Transistors**   | <p align="center">3 510</p>        | <p align="center">29 000</p>   | <p align="center">134 000</p>  | <p align="center">17 800 000 000</p> |
 | **Technology**    | <p align="center">8 μm</p>         | <p align="center">3 μm</p>     | <p align="center">1.5 μm</p>   | <p align="center">10 nm</p>          |
 | **Architecture**  | <p align="center">8 bit</p>        | <p align="center">16 bit</p>   | <p align="center">16 bit</p>   | <p align="center">64 bit</p>         |
-| **Instructions**  | <p align="center">56</p>           | <p align="center">114</p>      | <p align="center">118</p>      | <p align="center">3 684</p>          |
-| **Clock Rate**    | <p align="center">1.79 Mhz</p>     | <p align="center">4 Mhz</p>    | <p align="center">12 Mhz</p>   | <p align="center">6 GHz</p>          |
+| **Instructions**  | <p align="center">56</p>           | <p align="center">61</p>       | <p align="center">118</p>      | <p align="center">3 684</p>          |
+| **Clock Rate**    | <p align="center">1.79 Mhz</p>     | <p align="center">4.77 Mhz</p> | <p align="center">12 Mhz</p>   | <p align="center">6 GHz</p>          |
 | **Data Bus**      | <p align="center">8 bit</p>        | <p align="center">16 bit</p>   | <p align="center">16 bit</p>   | <p align="center">64 bit</p>         |
 | **Address Bus**   | <p align="center">16 bit</p>       | <p align="center">20 bit</p>   | <p align="center">24 bit</p>   | <p align="center">64 bit</p>         |
-| **Memory**        | <p align="center">64 kb</p>        | <p align="center">640 kb</p>   | <p align="center">640 kb</p>   | <p align="center">192 Gb</p>         |
-| **HDD**           | <p align="center">-</p>            | <p align="center">40 Mb</p>    | <p align="center">40 Mb</p>    | <p align="center">16 Tb</p>          |
+| **Memory**        | <p align="center">64 kb</p>        | <p align="center">64 kb</p>    | <p align="center">640 kb</p>   | <p align="center">192 Gb</p>         |
+| **HDD**           | <p align="center">-</p>            | <p align="center">-</p>        | <p align="center">40 Mb</p>    | <p align="center">16 Tb</p>          |
 | **Floppy**        | <p align="center">5.25"</p>        | <p align="center">5.25"</p>    | <p align="center">5.25"</p>    | <p align="center">-</p>              |
 | **Cassette Tape** | <p align="center">+</p>            | <p align="center">-</p>        | <p align="center">-</p>        | <p align="center">-</p>              |
 | **Joystick**      | <p align="center">+</p>            | <p align="center">-</p>        | <p align="center">-</p>        | <p align="center">-</p>              |
 | **Mouse**         | <p align="center">+</p>            | <p align="center">+</p>        | <p align="center">+</p>        | <p align="center">+</p>              |
 | **Keyboard**      | <p align="center">+</p>            | <p align="center">+</p>        | <p align="center">+</p>        | <p align="center">+</p>              |
 | **Modem**         | <p align="center">300 baud</p>     | <p align="center">300 baud</p> | <p align="center">300 baud</p> | <p align="center">-</p>              |
-| **Monitor**       | <p align="center">[TV](https://en.wikipedia.org/wiki/Analog_television)</p> | <p align="center">[EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter)</p> | <p align="center">[EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter)</p> | <p align="center">[8k](https://en.wikipedia.org/wiki/8K_resolution)</p> |
-| **Width**         | <p align="center">320</p>          | <p align="center">640</p>      | <p align="center">640</p>      | <p align="center">7 680 </p>         |
-| **Height**        | <p align="center">192</p>          | <p align="center">350</p>      | <p align="center">350</p>      | <p align="center">4 320</p>          |
+| **Monitor**       | <p align="center">[TV](https://en.wikipedia.org/wiki/Analog_television)</p> | <p align="center">[CGA](https://en.wikipedia.org/wiki/Color_Graphics_Adapter)</p> | <p align="center">[EGA](https://en.wikipedia.org/wiki/Enhanced_Graphics_Adapter)</p> | <p align="center">[8k](https://en.wikipedia.org/wiki/8K_resolution)</p> |
+| **Width**         | <p align="center">320</p>          | <p align="center">320</p>      | <p align="center">640</p>      | <p align="center">7 680 </p>         |
+| **Height**        | <p align="center">192</p>          | <p align="center">200</p>      | <p align="center">350</p>      | <p align="center">4 320</p>          |
 | **Columns**       | <p align="center">40</p>           | <p align="center">80</p>       | <p align="center">80</p>       | <p align="center">-</p>              |
 | **Rows**          | <p align="center">24</p>           | <p align="center">25</p>       | <p align="center">25</p>       | <p align="center">-</p>              |
-| **Colors**        | <p align="center">16 (256)</p>     | <p align="center">16 (64)</p>  | <p align="center">16 (64)</p>  | <p align="center">68 719 476 736</p> |
+| **Colors**        | <p align="center">16 (256)</p>     | <p align="center">4 (16)</p>  | <p align="center">16 (64)</p>  | <p align="center">68 719 476 736</p> |
 
 The operating system can be written using **[Assembly](https://en.wikipedia.org/wiki/Assembly_language)** and **[C++](https://en.wikipedia.org/wiki/C++)** languages. Or with **V O I D lang** and direct use of **[opcodes](https://en.wikipedia.org/wiki/Opcode)**.
 
