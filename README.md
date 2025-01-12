@@ -268,7 +268,7 @@ You can use it in both **private** and **open source**, embed it in **free** or 
 **[⌜ V O I D lang ⌟](https://github.com/voidspawner/void.lang)** is the language for rapidly creating applications in the **[V O I D](https://github.com/voidspawner/void.lang#v-o-i-d-format)** or **[JSON](https://en.wikipedia.org/wiki/JSON)** format. It is used as a replacement for both the standard Bash/CMD/etc. languages and for writing **UI Applications**, **Servers** and **Games**. The language uses one of the languages already preinstalled in the system. So you don't need to install anything else. Code and data are not separated. So the whole application fits in **one V O I D or JSON file**. Since the **code is presented as data**, applications can be easily generated with **AI**, updated, installed and launched remotely.
 
 ## V O I D tech
-**[⌜ V O I D tech ⌟](https://github.com/voidspawner/void.tech)** is combinable devices controlled by **V O I D ai** to perform **home**, **business**, **industrial** purposes and **teaching children** to interact with technology.
+**[⌜ V O I D tech ⌟](https://github.com/voidspawner/void.tech)** are combinable devices controlled by **[V O I D ai](https://github.com/voidspawner/void.lang#v-o-i-d-ai)** for creating **individual** stand-alone productions, as well as creating individual products with **unique designs** and in the required quantities.
 
 ## V O I D ideology
 **[⌜V O I D⌟](https://github.com/voidspawner/void.ideology)**  is not only about compact technologies, but also an **ideology** that shows where these technologies are taking us.
