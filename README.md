@@ -7,7 +7,7 @@
 > [!IMPORTANT]
 > **The project is in the process of development.**
 
-<img src="https://github.com/voidspawner/void.ideology/blob/main/asset/image/logo.jpg" width="100%">
+<img src="https://github.com/voidspawner/voidspawner.github.io/blob/main/site/image/logo.jpg" width="100%">
 
 > [**About**](#about)・
 [**Structure**](#structure)・
