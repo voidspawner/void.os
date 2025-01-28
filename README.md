@@ -245,7 +245,7 @@ Computer technology is continually evolving.
 | **Multitasking OS**      | [**PDP-6**](https://en.wikipedia.org/wiki/PDP-6)                                        | <p align="center">1964</p>     |
 | **Graphical OS**         | [**Alto Executive**](https://en.wikipedia.org/wiki/Xerox_Alto)                          | <p align="center">1973</p>     |
 | **Network**              | [**Ethernet for Xerox Alto**](https://en.wikipedia.org/wiki/Ethernet)                   | <p align="center">1973</p>     |
-| **CPU**                  | [**Intel 8086**](https://ru.wikipedia.org/wiki/Intel_8086)                              | <p align="center">1978</p>     |
+| **CPU**                  | [**Intel 8086**](https://en.wikipedia.org/wiki/Intel_8086)                              | <p align="center">1978</p>     |
 | **Spreadsheet**          | [**VisiCalc**](https://en.wikipedia.org/wiki/VisiCalc)                                  | <p align="center">1979</p>     |
 | **3D Game**              | [**Battlezone**](https://en.wikipedia.org/wiki/Battlezone_(1980_video_game))            | <p align="center">1980</p>     |
 | **HTTP Server**          | [**CERN httpd**](https://en.wikipedia.org/wiki/CERN_httpd)                              | <p align="center">1990</p>     |
@@ -256,7 +256,7 @@ Computer technology is continually evolving.
 | **Social Network**       | [**SixDegrees**](https://en.wikipedia.org/wiki/SixDegrees.com)                          | <p align="center">1997</p>     |
 | **Web Data Format**      | [**JSON**](https://en.wikipedia.org/wiki/JSON)                                          | <p align="center">1999</p>     |
 | **3D Craft Game**        | [**Minecraft**](https://en.wikipedia.org/wiki/Minecraft)                                | <p align="center">2009</p>     |
-| **AI**                   | [**Stable Diffusion**](https://ru.wikipedia.org/wiki/Stable_Diffusion)                  | <p align="center">2022</p>     |
+| **AI**                   | [**Stable Diffusion**](https://en.wikipedia.org/wiki/Stable_Diffusion)                  | <p align="center">2022</p>     |
 | **Ideology**             | [**V O I D**](https://github.com/voidspawner/void.ideology)                             | <p align="center">2023</p>     |
 
 Now it has come to the point where applications can be created in simple descriptive language **V O I D lang**, and all the complex functionality residing directly in the **V O I D os**.
