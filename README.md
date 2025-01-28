@@ -235,8 +235,10 @@ Computer technology is continually evolving.
 
 | Type                     | Name                                                                                    | Year                           |
 | -----------------------  | --------------------------------------------------------------------------------------- | ------------------------------ |
+| **Calculating**          | [**Abacus**](https://en.wikipedia.org/wiki/Abacus)                                      | <p align="center">2500 BC</p>  |
 | **Print**                | [**Johannes Gutenberg's Printing Press**](https://en.wikipedia.org/wiki/Printing_press) | <p align="center">1440</p>     |
 | **Programmatic Control** | [**Jacquard Machine**](https://en.wikipedia.org/wiki/Jacquard_machine)                  | <p align="center">1804</p>     |
+| **Multiplying**          | [**Arithmometer**](https://en.wikipedia.org/wiki/Arithmometer)                          | <p align="center">1820</p>     |
 | **Programming Language** | [**Short Code**](https://en.wikipedia.org/wiki/Short_Code_(computer_language))          | <p align="center">1950</p>     |
 | **OS**                   | [**GM-NAA I/O**](https://en.wikipedia.org/wiki/GM-NAA_I/O)                              | <p align="center">1956</p>     |
 | **Game**                 | [**Spacewar!**](https://en.wikipedia.org/wiki/Spacewar!)                                | <p align="center">1962</p>     |
