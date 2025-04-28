@@ -7,7 +7,7 @@
 > [!IMPORTANT]
 > **The project is in the process of development.**
 
-<img src="https://github.com/voidspawner/voidspawner.github.io/blob/main/site/image/logo.jpg" width="100%">
+<img src="https://github.com/voidspawner/void.ideology/blob/main/site/image/logo.jpg" width="100%">
 
 > [**About**](#about)・
 [**Structure**](#structure)・
@@ -292,7 +292,7 @@ Computer technology is continually evolving.
 Now it has come to the point where applications can be created in simple descriptive language **V O I D lang**, and all the complex functionality residing directly in the **V O I D os**.
 
 ## V O I D game
-**[⌜ V O I D game ⌟](https://voidspawner.github.io)** is a game that creates an **infinite** number of games, v-apps and content.
+**[⌜ V O I D game ⌟](https://voidsp.ru/void.game)** is a game that creates an **infinite** number of games, v-apps and content.
 
 ## V O I D social
 **⌜ V O I D social ⌟** is a social network where you can **quickly** and **easily** communicate without words with people all over the world.
@@ -317,4 +317,4 @@ You can use it in both **private** and **open source**, embed it in **free** or 
 > [!IMPORTANT]
 > By adding your code to the repository, you are publishing it under the **V O I D licence**.
 
-Find out current **tasks** and **payment** at [**V O I D task**](https://github.com/voidspawner/void.task)
+Find out current **tasks** and **payment** at [**V O I D task**](https://voidsp.ru/void.task)
