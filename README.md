@@ -36,7 +36,7 @@ Each application can run in a separate isolated space, with a limited set of act
 
 ## How to Install
 
-1. Download **V O I D lang**
+1. Download **[V O I D lang](https://github.com/voidspawner/void.lang)**
 2. Spawn **V O I D os** on your drive
 3. Boot with **V O I D os**
  
@@ -291,7 +291,7 @@ Computer technology is continually evolving.
 Now it has come to the point where applications can be created in simple descriptive language **V O I D lang**, and all the complex functionality residing directly in the **V O I D os**.
 
 ## V O I D game
-**[⌜V O I D game⌟](https://voidspawner.github.io)** is a game that creates an **infinite** number of games, v-apps and content.
+**[⌜ V O I D game ⌟](https://voidspawner.github.io)** is a game that creates an **infinite** number of games, v-apps and content.
 
 ## V O I D social
 **⌜ V O I D social ⌟** is a social network where you can **quickly** and **easily** communicate without words with people all over the world.
@@ -303,7 +303,7 @@ Now it has come to the point where applications can be created in simple descrip
 **[⌜ V O I D tech ⌟](https://github.com/voidspawner/void.tech)** are combinable devices controlled by **[V O I D ai](https://github.com/voidspawner/void.lang#v-o-i-d-ai)** for creating **individual** stand-alone productions, as well as creating individual products with **unique designs** and in the required quantities.
 
 ## V O I D ideology
-**[⌜V O I D⌟](https://github.com/voidspawner/void.ideology)**  is not only about compact technologies, but also an **ideology** that shows where these technologies are taking us.
+**[⌜ V O I D ⌟](https://github.com/voidspawner/void.ideology)**  is not only about compact technologies, but also an **ideology** that shows where these technologies are taking us.
 
 ## V O I D license
 **⌜ V O I D license ⌟** is a license to distribute digital content and goods. Expressed in a single sentence:
