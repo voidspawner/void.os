@@ -12,6 +12,7 @@
 > [**About**](#about)・
 [**Structure**](#structure)・
 [**Security**](#security)・
+[**How to Install**](#how-to-install)・
 [**Modern & Retro**](#modern--retro)・
 [**A Bit of History**](#a-bit-of-history)・
 [**V O I D game**](#v-o-i-d-game)・
