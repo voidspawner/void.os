@@ -34,6 +34,35 @@ The operating system contains viewing and editing media and office files, workin
 
 Each application can run in a separate isolated space, with a limited set of actions, or in a separate virtual machine, so that no data corruption or stealing occurs.
 
+## How to Install
+
+1. Download **V O I D lang**
+2. Spawn **V O I D os** on your drive
+3. Boot with **V O I D os**
+ 
+> [!NOTE]
+> **``Linux・macOS``**
+> ```console
+> void spawner os /mnt/flash
+> ```
+> 
+> **``Windows``**
+> ```console
+> void.exe spawner os f:
+> ```
+> 
+> **``Python``**
+> ```console
+> python void.py spawner os /mnt/flash
+> ```
+>
+> **``Variation``**
+> ```console
+> void spawner os.x86 /mnt/flash
+> void spawner os.80286 /mnt/flash
+> void spawner os.atari /mnt/flash
+> ```
+
 ## Modern & Retro
 
 An operating system with **V O I D lang** that can run both on **modern** and **retro** computers, as well as emulate them.
